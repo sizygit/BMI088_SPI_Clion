@@ -1,5 +1,5 @@
-/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/szy/STM32-files/BMI088/BMI_088_SPI_Clion
+/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/szy/STM32-files/BMI088_SPI_Clion
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug
+-- Build files have been written to: /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug

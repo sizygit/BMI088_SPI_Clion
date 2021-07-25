@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug"/>
+				<Option working_dir="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug"/>
+				<Option working_dir="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug"/>
+				<Option working_dir="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BMI_088_SPI_Clion.elf">
-				<Option output="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug"/>
+				<Option output="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,12 +50,12 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -64,15 +64,15 @@
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 BMI_088_SPI_Clion.elf"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 BMI_088_SPI_Clion.elf"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BMI_088_SPI_Clion.elf/fast">
-				<Option output="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug"/>
+				<Option output="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -83,12 +83,12 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include"/>
-					<Add directory="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -97,275 +97,278 @@
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 BMI_088_SPI_Clion.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 BMI_088_SPI_Clion.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/dma.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/dma.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/gpio.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/gpio.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/main.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/main.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/spi.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/spi.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/stm32f4xx_it.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/tim.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/tim.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Inc/usart.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/usart.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/dma.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/dma.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/gpio.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/gpio.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/main.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/main.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/spi.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/spi.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/stm32f4xx_it.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_it.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/syscalls.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/syscalls.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/sysmem.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/sysmem.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/system_stm32f4xx.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/system_stm32f4xx.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/tim.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/tim.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Src/usart.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/usart.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Core/Startup/startup_stm32f407ighx.s">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Startup/startup_stm32f407ighx.s">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/STM32F407IGHX_FLASH.ld">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/STM32F407IGHX_FLASH.ld">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088/BMI088Middleware.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088Middleware.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088/BMI088Middleware.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088Middleware.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088/BMI088driver.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088driver.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088/BMI088driver.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088driver.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/component/BMI088/BMI088reg.h">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088reg.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/CMakeLists.txt">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/struct_typedef.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

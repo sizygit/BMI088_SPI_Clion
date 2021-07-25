@@ -111,8 +111,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x0000000000000000       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0000000000000000      0x375 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x0000000000000000      0x873 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0000000000000000      0x36d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x0000000000000000      0x863 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x0000000000000000      0x190 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -129,8 +129,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
  .debug_ranges  0x0000000000000000       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000000000000000      0x1b3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
- .debug_str     0x0000000000000000      0x68b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0000000000000000      0x1ab CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x0000000000000000      0x67b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
  .debug_frame   0x0000000000000000       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
@@ -269,8 +269,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_ranges  0x0000000000000000       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_line    0x0000000000000000      0x955 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x0000000000000000      0x69a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_line    0x0000000000000000      0x935 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x0000000000000000      0x68a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x0000000000000000       0x74 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -302,8 +302,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_ranges  0x0000000000000000       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_line    0x0000000000000000      0x3e4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x0000000000000000      0x532 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_line    0x0000000000000000      0x3c4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x0000000000000000      0x522 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x0000000000000000       0xe4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -352,8 +352,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xa0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_ranges  0x0000000000000000       0x90 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_line    0x0000000000000000      0x4da CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x0000000000000000      0x689 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_line    0x0000000000000000      0x4ba CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x0000000000000000      0x679 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x0000000000000000      0x164 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -399,8 +399,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_ranges  0x0000000000000000       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_line    0x0000000000000000      0x4a4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x0000000000000000      0x6d9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_line    0x0000000000000000      0x484 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x0000000000000000      0x6c9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x0000000000000000      0x16c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -412,8 +412,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x8f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x0000000000000000      0x1f3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x0000000000000000      0x31f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x0000000000000000      0x1db CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x0000000000000000      0x30f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
                 0x0000000000000000       0x39 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -475,8 +475,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xa0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_ranges  0x0000000000000000       0x90 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_line    0x0000000000000000      0x3e8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x0000000000000000      0x680 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_line    0x0000000000000000      0x3c8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x0000000000000000      0x670 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x0000000000000000      0x138 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -502,8 +502,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_ranges  0x0000000000000000       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x0000000000000000      0x310 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x0000000000000000      0x543 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000000000000000      0x2f0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000000000000000      0x533 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x0000000000000000       0x90 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -548,8 +548,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_ranges  0x0000000000000000       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_line    0x0000000000000000      0x3c6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_str     0x0000000000000000      0x5eb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000000000      0x3a6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_str     0x0000000000000000      0x5db CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_frame   0x0000000000000000       0xa4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .ARM.attributes
@@ -975,8 +975,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x168 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_ranges  0x0000000000000000      0x158 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000000000      0xf30 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_str     0x0000000000000000     0x1004 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000000000000000      0xf10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000000000      0xff4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_frame   0x0000000000000000      0x47c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
@@ -1974,69 +1974,69 @@ OUTPUT(BMI_088_SPI_Clion.elf elf32-littlearm)
  .debug_ranges  0x0000000000000c00       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
  .debug_ranges  0x0000000000000c50       0x40 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
-.debug_line     0x0000000000000000     0x76d0
- .debug_line    0x0000000000000000      0x276 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
- .debug_line    0x0000000000000276      0x28a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000000000000500      0x452 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000000000000952      0x36c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x0000000000000cbe      0x266 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0000000000000f24      0x371 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000001295      0x290 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x0000000000001525      0x35a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x000000000000187f      0x371 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x0000000000001bf0       0xb4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
- .debug_line    0x0000000000001ca4      0x4ae CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000000000002152      0x4f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x000000000000264a      0x5d3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x0000000000002c1d      0x42a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x0000000000003047      0x56b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00000000000035b2      0xd37 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x00000000000042e9     0x1f7a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x0000000000006263      0xd9c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000000000006fff      0x362 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
- .debug_line    0x0000000000007361      0x36f CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+.debug_line     0x0000000000000000     0x7440
+ .debug_line    0x0000000000000000      0x256 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
+ .debug_line    0x0000000000000256      0x26a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00000000000004c0      0x422 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000000000008e2      0x344 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x0000000000000c26      0x246 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x0000000000000e6c      0x351 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000000000011bd      0x270 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x000000000000142d      0x332 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x000000000000175f      0x349 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000000000001aa8       0xac CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+ .debug_line    0x0000000000001b54      0x48e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x0000000000001fe2      0x4d8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00000000000024ba      0x5b3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x0000000000002a6d      0x40a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x0000000000002e77      0x54b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00000000000033c2      0xd17 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_line    0x00000000000040d9     0x1f5a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x0000000000006033      0xd7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000000000006daf      0x342 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+ .debug_line    0x00000000000070f1      0x34f CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
-.debug_str      0x0000000000000000     0x44da
- .debug_str     0x0000000000000000      0x8c2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
-                                        0x914 (size before relaxing)
- .debug_str     0x00000000000008c2       0xfb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
-                                        0x4bd (size before relaxing)
- .debug_str     0x00000000000009bd      0xa61 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                                        0xf46 (size before relaxing)
- .debug_str     0x000000000000141e       0xbd CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                                        0x96a (size before relaxing)
- .debug_str     0x00000000000014db       0x58 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                                        0x40c (size before relaxing)
- .debug_str     0x0000000000001533      0x173 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                        0x87a (size before relaxing)
- .debug_str     0x00000000000016a6       0xdb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                                        0x488 (size before relaxing)
- .debug_str     0x0000000000001781      0x139 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                                        0xae1 (size before relaxing)
- .debug_str     0x00000000000018ba       0x91 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
-                                        0xe90 (size before relaxing)
- .debug_str     0x000000000000194b       0x63 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
-                                         0xa4 (size before relaxing)
- .debug_str     0x00000000000019ae      0x2f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                        0xc1a (size before relaxing)
- .debug_str     0x0000000000001ca6      0x459 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                        0xd59 (size before relaxing)
- .debug_str     0x00000000000020ff      0x303 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                                        0x8a5 (size before relaxing)
- .debug_str     0x0000000000002402      0x14f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                        0x61f (size before relaxing)
- .debug_str     0x0000000000002551      0x1bf CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                        0x7fd (size before relaxing)
- .debug_str     0x0000000000002710      0x559 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                                        0xd29 (size before relaxing)
- .debug_str     0x0000000000002c69      0xe71 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                                       0x1803 (size before relaxing)
- .debug_str     0x0000000000003ada      0x5ee CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                                        0xe63 (size before relaxing)
- .debug_str     0x00000000000040c8      0x107 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                                        0x8b1 (size before relaxing)
- .debug_str     0x00000000000041cf      0x30b CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                                        0x6a6 (size before relaxing)
+.debug_str      0x0000000000000000     0x4432
+ .debug_str     0x0000000000000000      0x8b2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
+                                        0x904 (size before relaxing)
+ .debug_str     0x00000000000008b2       0xf3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+                                        0x4ad (size before relaxing)
+ .debug_str     0x00000000000009a5      0xa59 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                                        0xf36 (size before relaxing)
+ .debug_str     0x00000000000013fe       0xb5 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                                        0x95a (size before relaxing)
+ .debug_str     0x00000000000014b3       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                                        0x3fc (size before relaxing)
+ .debug_str     0x0000000000001503      0x16b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                        0x86a (size before relaxing)
+ .debug_str     0x000000000000166e       0xd3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                                        0x478 (size before relaxing)
+ .debug_str     0x0000000000001741      0x131 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                                        0xad1 (size before relaxing)
+ .debug_str     0x0000000000001872       0x89 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+                                        0xe80 (size before relaxing)
+ .debug_str     0x00000000000018fb       0x5b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+                                         0x94 (size before relaxing)
+ .debug_str     0x0000000000001956      0x2f0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                        0xc0a (size before relaxing)
+ .debug_str     0x0000000000001c46      0x451 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                        0xd49 (size before relaxing)
+ .debug_str     0x0000000000002097      0x2fb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                                        0x895 (size before relaxing)
+ .debug_str     0x0000000000002392      0x147 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                        0x60f (size before relaxing)
+ .debug_str     0x00000000000024d9      0x1b7 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                        0x7ed (size before relaxing)
+ .debug_str     0x0000000000002690      0x551 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                                        0xd19 (size before relaxing)
+ .debug_str     0x0000000000002be1      0xe69 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                                       0x17f3 (size before relaxing)
+ .debug_str     0x0000000000003a4a      0x5e6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                                        0xe53 (size before relaxing)
+ .debug_str     0x0000000000004030       0xff CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                                        0x8a1 (size before relaxing)
+ .debug_str     0x000000000000412f      0x303 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                                        0x696 (size before relaxing)
 
 .comment        0x0000000000000000       0x7e
  .comment       0x0000000000000000       0x7e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj

@@ -1,4 +1,4 @@
-# Install script for directory: /home/szy/STM32-files/BMI088/BMI_088_SPI_Clion
+# Install script for directory: /home/szy/STM32-files/BMI088_SPI_Clion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/szy/STM32-files/BMI088/BMI_088_SPI_Clion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
