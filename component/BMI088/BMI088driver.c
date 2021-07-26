@@ -6,10 +6,26 @@
 float_32 BMI088_ACCEL_SEN = BMI088_ACCEL_3G_SEN;
 float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
 
-
-
 #if defined(BMI088_USE_SPI)
+/**                 Multiple read operations (burst-read)
+ *  are possible by keeping CSB low and continuing the data transfer(i.e. continuing to toggle SCK).
+ *  Only the first register address has to be written. Addresses are automatically incremented after
+ *  each read access as long as CSB stays active low.
+ *
+ */
 
+/**                 accelerometer part
+ *  In case of read operations of the accelerometer part, the requested data is not sent immediately, but
+ *  instead first a dummy byte is sent, and after this dummy byte the actual reqested register content is
+ *  transmitted
+ *  ----when in read mode for accelerometer part,the accel data is
+ *  Bit #0: Read/Write bit
+ *  Bit #1-7: Address AD(6:0)
+ *  Bit #8-15:
+ *      o When in write mode, these are the data SDI, which will be written into the address.
+ *      o When in read mode, these bits contain unpredictable values, and the user has to
+ *         read Bit #16-23 to get the actual data from the reading address.
+ */
 #define BMI088_accel_write_single_reg(reg, data) \
     {                                            \
         BMI088_ACCEL_NS_L();                     \
@@ -32,7 +48,17 @@ float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
         BMI088_read_muli_reg(reg, data, len);      \
         BMI088_ACCEL_NS_H();                       \
     }
-
+/**                 gyroscope part
+ *  For single byte read as well as write operations, 16-bit protocols are used. The SPI interface also
+ *  supports multiple-byte read operations (burst-read).
+ *  ----The data bits are used as follows:
+ *  Bit #0: Read/Write bit. When 0, the data SDI is written into the chip. When 1, the data
+ *          SDO from the chip is read.
+ *  Bit #1-7: Address AD(6:0).
+ *  Bit #8-15: when in write mode, these are the data SDI, which will be written into the
+ *             address. When in read mode, these are the data SDO, which are read from the address.
+ *
+ */
 #define BMI088_gyro_write_single_reg(reg, data) \
     {                                           \
         BMI088_GYRO_NS_L();                     \
