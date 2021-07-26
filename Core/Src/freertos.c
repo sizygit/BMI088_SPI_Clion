@@ -52,6 +52,7 @@
 osThreadId defaultTaskHandle;
 osThreadId BMI088Handle;
 osSemaphoreId Binary10msHandle;
+osSemaphoreId BinaryNSLowHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -97,6 +98,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of Binary10ms */
   osSemaphoreDef(Binary10ms);
   Binary10msHandle = osSemaphoreCreate(osSemaphore(Binary10ms), 1);
+
+  /* definition and creation of BinaryNSLow */
+  osSemaphoreDef(BinaryNSLow);
+  BinaryNSLowHandle = osSemaphoreCreate(osSemaphore(BinaryNSLow), 1);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */

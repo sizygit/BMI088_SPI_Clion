@@ -64,6 +64,7 @@ void MX_FREERTOS_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 extern osSemaphoreId Binary10msHandle;
+extern osSemaphoreId BinaryNSLowHandle;
 /* USER CODE END 0 */
 
 /**

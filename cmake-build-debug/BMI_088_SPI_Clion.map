@@ -1410,6 +1410,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ .data.sendbuf_none
+                0x0000000000000000        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
@@ -1561,7 +1563,7 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000190     0x4b68
+.text           0x0000000008000190     0x4b7c
                 0x0000000008000190                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000190       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
@@ -1589,687 +1591,687 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x00000000080006c4       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
                 0x00000000080006c4                vApplicationGetIdleTaskMemory
  .text.MX_FREERTOS_Init
-                0x00000000080006dc       0x64 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                0x00000000080006dc       0x78 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
                 0x00000000080006dc                MX_FREERTOS_Init
  .text.MX_GPIO_Init
-                0x0000000008000740      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
-                0x0000000008000740                MX_GPIO_Init
+                0x0000000008000754      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+                0x0000000008000754                MX_GPIO_Init
  .text.HAL_TIM_PeriodElapsedCallback
-                0x000000000800084c       0x54 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                0x000000000800084c                HAL_TIM_PeriodElapsedCallback
+                0x0000000008000860       0x54 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                0x0000000008000860                HAL_TIM_PeriodElapsedCallback
  .text.Error_Handler
-                0x00000000080008a0        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                0x00000000080008a0                Error_Handler
+                0x00000000080008b4        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                0x00000000080008b4                Error_Handler
  .text.SystemClock_Config
-                0x00000000080008a4       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                0x00000000080008a4                SystemClock_Config
- .text.main     0x000000000800094c       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                0x000000000800094c                main
+                0x00000000080008b8       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                0x00000000080008b8                SystemClock_Config
+ .text.main     0x0000000008000960       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                0x0000000008000960                main
  .text.MX_SPI1_Init
-                0x0000000008000978       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                0x0000000008000978                MX_SPI1_Init
+                0x000000000800098c       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                0x000000000800098c                MX_SPI1_Init
  .text.HAL_SPI_MspInit
-                0x00000000080009c0      0x124 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                0x00000000080009c0                HAL_SPI_MspInit
+                0x00000000080009d4      0x124 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                0x00000000080009d4                HAL_SPI_MspInit
  .text.HAL_MspInit
-                0x0000000008000ae4       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008000ae4                HAL_MspInit
+                0x0000000008000af8       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008000af8                HAL_MspInit
  .text.HAL_InitTick
-                0x0000000008000b28       0x7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
-                0x0000000008000b28                HAL_InitTick
+                0x0000000008000b3c       0x7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+                0x0000000008000b3c                HAL_InitTick
  .text.NMI_Handler
-                0x0000000008000ba4        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000ba4                NMI_Handler
+                0x0000000008000bb8        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bb8                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008000ba6        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000ba6                HardFault_Handler
+                0x0000000008000bba        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bba                HardFault_Handler
  .text.MemManage_Handler
-                0x0000000008000ba8        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000ba8                MemManage_Handler
+                0x0000000008000bbc        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bbc                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000008000baa        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000baa                BusFault_Handler
+                0x0000000008000bbe        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bbe                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000008000bac        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bac                UsageFault_Handler
+                0x0000000008000bc0        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bc0                UsageFault_Handler
  .text.DebugMon_Handler
-                0x0000000008000bae        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bae                DebugMon_Handler
+                0x0000000008000bc2        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bc2                DebugMon_Handler
  .text.TIM3_IRQHandler
-                0x0000000008000bb0       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bb0                TIM3_IRQHandler
+                0x0000000008000bc4       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bc4                TIM3_IRQHandler
  .text.USART1_IRQHandler
-                0x0000000008000bc0       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bc0                USART1_IRQHandler
+                0x0000000008000bd4       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bd4                USART1_IRQHandler
  .text.TIM7_IRQHandler
-                0x0000000008000bd0       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bd0                TIM7_IRQHandler
+                0x0000000008000be4       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000be4                TIM7_IRQHandler
  .text.DMA2_Stream2_IRQHandler
-                0x0000000008000be0       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000be0                DMA2_Stream2_IRQHandler
+                0x0000000008000bf4       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000bf4                DMA2_Stream2_IRQHandler
  .text.DMA2_Stream3_IRQHandler
-                0x0000000008000bf0       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000bf0                DMA2_Stream3_IRQHandler
+                0x0000000008000c04       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000c04                DMA2_Stream3_IRQHandler
  .text.DMA2_Stream7_IRQHandler
-                0x0000000008000c00       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008000c00                DMA2_Stream7_IRQHandler
+                0x0000000008000c14       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008000c14                DMA2_Stream7_IRQHandler
  .text.SystemInit
-                0x0000000008000c10       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0000000008000c10                SystemInit
+                0x0000000008000c24       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0000000008000c24                SystemInit
  .text.MX_TIM3_Init
-                0x0000000008000c24       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000008000c24                MX_TIM3_Init
+                0x0000000008000c38       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x0000000008000c38                MX_TIM3_Init
  .text.HAL_TIM_Base_MspInit
-                0x0000000008000c94       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000008000c94                HAL_TIM_Base_MspInit
+                0x0000000008000ca8       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x0000000008000ca8                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0000000008000cfc       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000008000cfc                HAL_TIM_MspPostInit
+                0x0000000008000d10       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x0000000008000d10                HAL_TIM_MspPostInit
  .text.MX_TIM10_Init
-                0x0000000008000d5c       0x74 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000008000d5c                MX_TIM10_Init
+                0x0000000008000d70       0x74 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x0000000008000d70                MX_TIM10_Init
  .text.MX_USART1_UART_Init
-                0x0000000008000dd0       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
-                0x0000000008000dd0                MX_USART1_UART_Init
+                0x0000000008000de4       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+                0x0000000008000de4                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x0000000008000e04       0xbc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
-                0x0000000008000e04                HAL_UART_MspInit
+                0x0000000008000e18       0xbc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+                0x0000000008000e18                HAL_UART_MspInit
  .text.Reset_Handler
-                0x0000000008000ec0       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
-                0x0000000008000ec0                Reset_Handler
+                0x0000000008000ed4       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+                0x0000000008000ed4                Reset_Handler
  .text.Default_Handler
-                0x0000000008000f10        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
-                0x0000000008000f10                RTC_Alarm_IRQHandler
-                0x0000000008000f10                HASH_RNG_IRQHandler
-                0x0000000008000f10                EXTI2_IRQHandler
-                0x0000000008000f10                TIM8_CC_IRQHandler
-                0x0000000008000f10                TIM1_CC_IRQHandler
-                0x0000000008000f10                DMA2_Stream5_IRQHandler
-                0x0000000008000f10                DMA1_Stream5_IRQHandler
-                0x0000000008000f10                PVD_IRQHandler
-                0x0000000008000f10                SDIO_IRQHandler
-                0x0000000008000f10                TAMP_STAMP_IRQHandler
-                0x0000000008000f10                CAN2_RX1_IRQHandler
-                0x0000000008000f10                EXTI3_IRQHandler
-                0x0000000008000f10                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008000f10                TIM1_UP_TIM10_IRQHandler
-                0x0000000008000f10                TIM8_UP_TIM13_IRQHandler
-                0x0000000008000f10                I2C3_ER_IRQHandler
-                0x0000000008000f10                EXTI0_IRQHandler
-                0x0000000008000f10                I2C2_EV_IRQHandler
-                0x0000000008000f10                DMA1_Stream2_IRQHandler
-                0x0000000008000f10                CAN1_RX0_IRQHandler
-                0x0000000008000f10                FPU_IRQHandler
-                0x0000000008000f10                OTG_HS_WKUP_IRQHandler
-                0x0000000008000f10                CAN2_SCE_IRQHandler
-                0x0000000008000f10                SPI1_IRQHandler
-                0x0000000008000f10                TIM6_DAC_IRQHandler
-                0x0000000008000f10                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008000f10                DCMI_IRQHandler
-                0x0000000008000f10                CAN2_RX0_IRQHandler
-                0x0000000008000f10                USART6_IRQHandler
-                0x0000000008000f10                USART3_IRQHandler
-                0x0000000008000f10                CAN1_RX1_IRQHandler
-                0x0000000008000f10                UART5_IRQHandler
-                0x0000000008000f10                DMA2_Stream0_IRQHandler
-                0x0000000008000f10                TIM4_IRQHandler
-                0x0000000008000f10                I2C1_EV_IRQHandler
-                0x0000000008000f10                DMA1_Stream6_IRQHandler
-                0x0000000008000f10                DMA1_Stream1_IRQHandler
-                0x0000000008000f10                UART4_IRQHandler
-                0x0000000008000f10                RCC_IRQHandler
-                0x0000000008000f10                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008000f10                Default_Handler
-                0x0000000008000f10                EXTI15_10_IRQHandler
-                0x0000000008000f10                ADC_IRQHandler
-                0x0000000008000f10                DMA1_Stream7_IRQHandler
-                0x0000000008000f10                CAN2_TX_IRQHandler
-                0x0000000008000f10                TIM5_IRQHandler
-                0x0000000008000f10                I2C3_EV_IRQHandler
-                0x0000000008000f10                EXTI9_5_IRQHandler
-                0x0000000008000f10                RTC_WKUP_IRQHandler
-                0x0000000008000f10                ETH_WKUP_IRQHandler
-                0x0000000008000f10                SPI2_IRQHandler
-                0x0000000008000f10                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008000f10                DMA1_Stream0_IRQHandler
-                0x0000000008000f10                CAN1_TX_IRQHandler
-                0x0000000008000f10                EXTI4_IRQHandler
-                0x0000000008000f10                FSMC_IRQHandler
-                0x0000000008000f10                ETH_IRQHandler
-                0x0000000008000f10                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008000f10                WWDG_IRQHandler
-                0x0000000008000f10                TIM2_IRQHandler
-                0x0000000008000f10                OTG_FS_WKUP_IRQHandler
-                0x0000000008000f10                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008000f10                OTG_HS_IRQHandler
-                0x0000000008000f10                EXTI1_IRQHandler
-                0x0000000008000f10                USART2_IRQHandler
-                0x0000000008000f10                I2C2_ER_IRQHandler
-                0x0000000008000f10                DMA2_Stream1_IRQHandler
-                0x0000000008000f10                CAN1_SCE_IRQHandler
-                0x0000000008000f10                FLASH_IRQHandler
-                0x0000000008000f10                DMA2_Stream4_IRQHandler
-                0x0000000008000f10                OTG_FS_IRQHandler
-                0x0000000008000f10                SPI3_IRQHandler
-                0x0000000008000f10                DMA1_Stream4_IRQHandler
-                0x0000000008000f10                I2C1_ER_IRQHandler
-                0x0000000008000f10                DMA2_Stream6_IRQHandler
-                0x0000000008000f10                DMA1_Stream3_IRQHandler
- *fill*         0x0000000008000f12        0x2 
+                0x0000000008000f24        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+                0x0000000008000f24                RTC_Alarm_IRQHandler
+                0x0000000008000f24                HASH_RNG_IRQHandler
+                0x0000000008000f24                EXTI2_IRQHandler
+                0x0000000008000f24                TIM8_CC_IRQHandler
+                0x0000000008000f24                TIM1_CC_IRQHandler
+                0x0000000008000f24                DMA2_Stream5_IRQHandler
+                0x0000000008000f24                DMA1_Stream5_IRQHandler
+                0x0000000008000f24                PVD_IRQHandler
+                0x0000000008000f24                SDIO_IRQHandler
+                0x0000000008000f24                TAMP_STAMP_IRQHandler
+                0x0000000008000f24                CAN2_RX1_IRQHandler
+                0x0000000008000f24                EXTI3_IRQHandler
+                0x0000000008000f24                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008000f24                TIM1_UP_TIM10_IRQHandler
+                0x0000000008000f24                TIM8_UP_TIM13_IRQHandler
+                0x0000000008000f24                I2C3_ER_IRQHandler
+                0x0000000008000f24                EXTI0_IRQHandler
+                0x0000000008000f24                I2C2_EV_IRQHandler
+                0x0000000008000f24                DMA1_Stream2_IRQHandler
+                0x0000000008000f24                CAN1_RX0_IRQHandler
+                0x0000000008000f24                FPU_IRQHandler
+                0x0000000008000f24                OTG_HS_WKUP_IRQHandler
+                0x0000000008000f24                CAN2_SCE_IRQHandler
+                0x0000000008000f24                SPI1_IRQHandler
+                0x0000000008000f24                TIM6_DAC_IRQHandler
+                0x0000000008000f24                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008000f24                DCMI_IRQHandler
+                0x0000000008000f24                CAN2_RX0_IRQHandler
+                0x0000000008000f24                USART6_IRQHandler
+                0x0000000008000f24                USART3_IRQHandler
+                0x0000000008000f24                CAN1_RX1_IRQHandler
+                0x0000000008000f24                UART5_IRQHandler
+                0x0000000008000f24                DMA2_Stream0_IRQHandler
+                0x0000000008000f24                TIM4_IRQHandler
+                0x0000000008000f24                I2C1_EV_IRQHandler
+                0x0000000008000f24                DMA1_Stream6_IRQHandler
+                0x0000000008000f24                DMA1_Stream1_IRQHandler
+                0x0000000008000f24                UART4_IRQHandler
+                0x0000000008000f24                RCC_IRQHandler
+                0x0000000008000f24                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008000f24                Default_Handler
+                0x0000000008000f24                EXTI15_10_IRQHandler
+                0x0000000008000f24                ADC_IRQHandler
+                0x0000000008000f24                DMA1_Stream7_IRQHandler
+                0x0000000008000f24                CAN2_TX_IRQHandler
+                0x0000000008000f24                TIM5_IRQHandler
+                0x0000000008000f24                I2C3_EV_IRQHandler
+                0x0000000008000f24                EXTI9_5_IRQHandler
+                0x0000000008000f24                RTC_WKUP_IRQHandler
+                0x0000000008000f24                ETH_WKUP_IRQHandler
+                0x0000000008000f24                SPI2_IRQHandler
+                0x0000000008000f24                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008000f24                DMA1_Stream0_IRQHandler
+                0x0000000008000f24                CAN1_TX_IRQHandler
+                0x0000000008000f24                EXTI4_IRQHandler
+                0x0000000008000f24                FSMC_IRQHandler
+                0x0000000008000f24                ETH_IRQHandler
+                0x0000000008000f24                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008000f24                WWDG_IRQHandler
+                0x0000000008000f24                TIM2_IRQHandler
+                0x0000000008000f24                OTG_FS_WKUP_IRQHandler
+                0x0000000008000f24                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008000f24                OTG_HS_IRQHandler
+                0x0000000008000f24                EXTI1_IRQHandler
+                0x0000000008000f24                USART2_IRQHandler
+                0x0000000008000f24                I2C2_ER_IRQHandler
+                0x0000000008000f24                DMA2_Stream1_IRQHandler
+                0x0000000008000f24                CAN1_SCE_IRQHandler
+                0x0000000008000f24                FLASH_IRQHandler
+                0x0000000008000f24                DMA2_Stream4_IRQHandler
+                0x0000000008000f24                OTG_FS_IRQHandler
+                0x0000000008000f24                SPI3_IRQHandler
+                0x0000000008000f24                DMA1_Stream4_IRQHandler
+                0x0000000008000f24                I2C1_ER_IRQHandler
+                0x0000000008000f24                DMA2_Stream6_IRQHandler
+                0x0000000008000f24                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008000f26        0x2 
  .text.HAL_Init
-                0x0000000008000f14       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008000f14                HAL_Init
+                0x0000000008000f28       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008000f28                HAL_Init
  .text.HAL_IncTick
-                0x0000000008000f48       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008000f48                HAL_IncTick
+                0x0000000008000f5c       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008000f5c                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008000f60        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008000f60                HAL_GetTick
+                0x0000000008000f74        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008000f74                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008000f6c       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008000f6c                HAL_NVIC_SetPriorityGrouping
+                0x0000000008000f80       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008000f80                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008000f90       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008000f90                HAL_NVIC_SetPriority
+                0x0000000008000fa4       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008000fa4                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008000ff8       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008000ff8                HAL_NVIC_EnableIRQ
+                0x000000000800100c       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000000000800100c                HAL_NVIC_EnableIRQ
  .text.DMA_CalcBaseAndBitshift
-                0x0000000008001014       0x3c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008001028       0x3c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.DMA_CheckFifoParam
-                0x0000000008001050       0x8e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- *fill*         0x00000000080010de        0x2 
+                0x0000000008001064       0x8e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ *fill*         0x00000000080010f2        0x2 
  .text.HAL_DMA_Init
-                0x00000000080010e0       0xcc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x00000000080010e0                HAL_DMA_Init
+                0x00000000080010f4       0xcc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x00000000080010f4                HAL_DMA_Init
  .text.HAL_DMA_Abort
-                0x00000000080011ac       0x94 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x00000000080011ac                HAL_DMA_Abort
+                0x00000000080011c0       0x94 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x00000000080011c0                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x0000000008001240       0x26 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0000000008001240                HAL_DMA_Abort_IT
- *fill*         0x0000000008001266        0x2 
+                0x0000000008001254       0x26 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008001254                HAL_DMA_Abort_IT
+ *fill*         0x000000000800127a        0x2 
  .text.HAL_DMA_IRQHandler
-                0x0000000008001268      0x1dc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0000000008001268                HAL_DMA_IRQHandler
+                0x000000000800127c      0x1dc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x000000000800127c                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x0000000008001444      0x1d4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0000000008001444                HAL_GPIO_Init
+                0x0000000008001458      0x1d4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000000008001458                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008001618        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0000000008001618                HAL_GPIO_WritePin
+                0x000000000800162c        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x000000000800162c                HAL_GPIO_WritePin
  .text.HAL_RCC_OscConfig
-                0x0000000008001624      0x3f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001624                HAL_RCC_OscConfig
+                0x0000000008001638      0x3f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001638                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008001a1c       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001a1c                HAL_RCC_GetSysClockFreq
+                0x0000000008001a30       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001a30                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008001ac4      0x160 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001ac4                HAL_RCC_ClockConfig
+                0x0000000008001ad8      0x160 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001ad8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008001c24        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001c24                HAL_RCC_GetHCLKFreq
+                0x0000000008001c38        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001c38                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008001c30       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001c30                HAL_RCC_GetPCLK1Freq
+                0x0000000008001c44       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001c44                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008001c50       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001c50                HAL_RCC_GetPCLK2Freq
+                0x0000000008001c64       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001c64                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCC_GetClockConfig
-                0x0000000008001c70       0x3c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008001c70                HAL_RCC_GetClockConfig
+                0x0000000008001c84       0x3c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008001c84                HAL_RCC_GetClockConfig
  .text.SPI_WaitFlagStateUntilTimeout
-                0x0000000008001cac       0xd0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x0000000008001cc0       0xd0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x0000000008001d7c       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x0000000008001d90       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .text.HAL_SPI_Init
-                0x0000000008001de4       0xbe CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                0x0000000008001de4                HAL_SPI_Init
+                0x0000000008001df8       0xbe CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x0000000008001df8                HAL_SPI_Init
  .text.HAL_SPI_TransmitReceive
-                0x0000000008001ea2      0x22e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                0x0000000008001ea2                HAL_SPI_TransmitReceive
+                0x0000000008001eb6      0x22e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x0000000008001eb6                HAL_SPI_TransmitReceive
  .text.TIM_OC1_SetConfig
-                0x00000000080020d0       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080020e4       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x0000000008002138       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800214c       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x00000000080021a8       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080021bc       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x00000000080021f8       0x26 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800220c       0x26 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x000000000800221e       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002232       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x0000000008002246       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- *fill*         0x0000000008002256        0x2 
+                0x000000000800225a       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ *fill*         0x000000000800226a        0x2 
  .text.HAL_TIM_Base_Start_IT
-                0x0000000008002258       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002258                HAL_TIM_Base_Start_IT
+                0x000000000800226c       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800226c                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_PWM_MspInit
-                0x00000000080022e0        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022e0                HAL_TIM_PWM_MspInit
+                0x00000000080022f4        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022f4                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x00000000080022e2        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022e2                HAL_TIM_OC_DelayElapsedCallback
+                0x00000000080022f6        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022f6                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x00000000080022e4        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022e4                HAL_TIM_IC_CaptureCallback
+                0x00000000080022f8        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022f8                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x00000000080022e6        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022e6                HAL_TIM_PWM_PulseFinishedCallback
+                0x00000000080022fa        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022fa                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x00000000080022e8        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022e8                HAL_TIM_TriggerCallback
+                0x00000000080022fc        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022fc                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x00000000080022ea      0x17a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080022ea                HAL_TIM_IRQHandler
+                0x00000000080022fe      0x17a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080022fe                HAL_TIM_IRQHandler
  .text.TIM_Base_SetConfig
-                0x0000000008002464       0xc8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002464                TIM_Base_SetConfig
+                0x0000000008002478       0xc8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002478                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x000000000800252c       0x56 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x000000000800252c                HAL_TIM_Base_Init
+                0x0000000008002540       0x56 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002540                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x0000000008002582       0x56 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002582                HAL_TIM_PWM_Init
+                0x0000000008002596       0x56 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002596                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x00000000080025d8       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080025d8                TIM_OC2_SetConfig
+                0x00000000080025ec       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080025ec                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x0000000008002648       0xd0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002648                HAL_TIM_PWM_ConfigChannel
+                0x000000000800265c       0xd0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800265c                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x0000000008002718       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002718                TIM_ETR_SetConfig
+                0x000000000800272c       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800272c                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x0000000008002730       0xda CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002730                HAL_TIM_ConfigClockSource
- *fill*         0x000000000800280a        0x2 
+                0x0000000008002744       0xda CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002744                HAL_TIM_ConfigClockSource
+ *fill*         0x000000000800281e        0x2 
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x000000000800280c       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x000000000800280c                HAL_TIMEx_MasterConfigSynchronization
+                0x0000000008002820       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0000000008002820                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x0000000008002894        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0000000008002894                HAL_TIMEx_CommutCallback
+                0x00000000080028a8        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000000080028a8                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x0000000008002896        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0000000008002896                HAL_TIMEx_BreakCallback
+                0x00000000080028aa        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000000080028aa                HAL_TIMEx_BreakCallback
  .text.UART_EndRxTransfer
-                0x0000000008002898       0x32 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x00000000080028ac       0x32 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x00000000080028ca       0x62 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x00000000080028de       0x62 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x000000000800292c      0x134 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002940      0x134 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x0000000008002a60       0x5e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002a60                HAL_UART_Init
+                0x0000000008002a74       0x5e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002a74                HAL_UART_Init
  .text.HAL_UART_TxCpltCallback
-                0x0000000008002abe        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002abe                HAL_UART_TxCpltCallback
+                0x0000000008002ad2        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002ad2                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x0000000008002ac0       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002ad4       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_RxCpltCallback
-                0x0000000008002ada        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002ada                HAL_UART_RxCpltCallback
- .text.HAL_UART_ErrorCallback
-                0x0000000008002adc        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002adc                HAL_UART_ErrorCallback
- .text.UART_DMAAbortOnError
-                0x0000000008002ade       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .text.HAL_UARTEx_RxEventCallback
                 0x0000000008002aee        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002aee                HAL_UARTEx_RxEventCallback
+                0x0000000008002aee                HAL_UART_RxCpltCallback
+ .text.HAL_UART_ErrorCallback
+                0x0000000008002af0        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002af0                HAL_UART_ErrorCallback
+ .text.UART_DMAAbortOnError
+                0x0000000008002af2       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .text.HAL_UARTEx_RxEventCallback
+                0x0000000008002b02        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002b02                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x0000000008002af0       0xb4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002b04       0xb4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_IRQHandler
-                0x0000000008002ba4      0x1f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002ba4                HAL_UART_IRQHandler
+                0x0000000008002bb8      0x1f8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002bb8                HAL_UART_IRQHandler
  .text.makeFreeRtosPriority
-                0x0000000008002d9c        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000000008002db0        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
  .text.osKernelStart
-                0x0000000008002da8        0xa CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x0000000008002da8                osKernelStart
+                0x0000000008002dbc        0xa CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000000008002dbc                osKernelStart
  .text.osThreadCreate
-                0x0000000008002db2       0x6c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x0000000008002db2                osThreadCreate
- .text.osDelay  0x0000000008002e1e       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x0000000008002e1e                osDelay
+                0x0000000008002dc6       0x6c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000000008002dc6                osThreadCreate
+ .text.osDelay  0x0000000008002e32       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000000008002e32                osDelay
  .text.osSemaphoreCreate
-                0x0000000008002e30       0x4a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x0000000008002e30                osSemaphoreCreate
+                0x0000000008002e44       0x4a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000000008002e44                osSemaphoreCreate
  .text.vListInitialise
-                0x0000000008002e7a       0x16 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x0000000008002e7a                vListInitialise
+                0x0000000008002e8e       0x16 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x0000000008002e8e                vListInitialise
  .text.vListInitialiseItem
-                0x0000000008002e90        0x6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x0000000008002e90                vListInitialiseItem
+                0x0000000008002ea4        0x6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x0000000008002ea4                vListInitialiseItem
  .text.vListInsertEnd
-                0x0000000008002e96       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x0000000008002e96                vListInsertEnd
+                0x0000000008002eaa       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x0000000008002eaa                vListInsertEnd
  .text.vListInsert
-                0x0000000008002eae       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x0000000008002eae                vListInsert
+                0x0000000008002ec2       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x0000000008002ec2                vListInsert
  .text.uxListRemove
-                0x0000000008002ee2       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x0000000008002ee2                uxListRemove
- *fill*         0x0000000008002f0a        0x2 
+                0x0000000008002ef6       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x0000000008002ef6                uxListRemove
+ *fill*         0x0000000008002f1e        0x2 
  .text.prvTaskExitError
-                0x0000000008002f0c       0x40 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002f20       0x40 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.prvPortStartFirstTask
-                0x0000000008002f4c       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002f60       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.vPortEnableVFP
-                0x0000000008002f74       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002f88       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.pxPortInitialiseStack
-                0x0000000008002f88       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008002f88                pxPortInitialiseStack
- *fill*         0x0000000008002fb4        0xc 
+                0x0000000008002f9c       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002f9c                pxPortInitialiseStack
+ *fill*         0x0000000008002fc8        0x8 
  .text.SVC_Handler
-                0x0000000008002fc0       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008002fc0                SVC_Handler
+                0x0000000008002fd0       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002fd0                SVC_Handler
  .text.vPortEnterCritical
-                0x0000000008002fe4       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008002fe4                vPortEnterCritical
+                0x0000000008002ff4       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008002ff4                vPortEnterCritical
  .text.vPortExitCritical
-                0x0000000008003028       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008003028                vPortExitCritical
- *fill*         0x0000000008003054        0xc 
+                0x0000000008003038       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008003038                vPortExitCritical
+ *fill*         0x0000000008003064        0xc 
  .text.PendSV_Handler
-                0x0000000008003060       0x64 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008003060                PendSV_Handler
+                0x0000000008003070       0x64 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008003070                PendSV_Handler
  .text.SysTick_Handler
-                0x00000000080030c4       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x00000000080030c4                SysTick_Handler
+                0x00000000080030d4       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x00000000080030d4                SysTick_Handler
  .text.vPortSetupTimerInterrupt
-                0x00000000080030f0       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x00000000080030f0                vPortSetupTimerInterrupt
+                0x0000000008003100       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008003100                vPortSetupTimerInterrupt
  .text.xPortStartScheduler
-                0x0000000008003128      0x110 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008003128                xPortStartScheduler
+                0x0000000008003138      0x110 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008003138                xPortStartScheduler
  .text.vPortValidateInterruptPriority
-                0x0000000008003238       0x5c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x0000000008003238                vPortValidateInterruptPriority
+                0x0000000008003248       0x5c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x0000000008003248                vPortValidateInterruptPriority
  .text.prvHeapInit
-                0x0000000008003294       0x64 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x00000000080032a4       0x64 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .text.prvInsertBlockIntoFreeList
-                0x00000000080032f8       0x58 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x0000000008003308       0x58 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .text.pvPortMalloc
-                0x0000000008003350      0x114 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-                0x0000000008003350                pvPortMalloc
+                0x0000000008003360      0x114 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x0000000008003360                pvPortMalloc
  .text.vPortFree
-                0x0000000008003464       0x7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-                0x0000000008003464                vPortFree
+                0x0000000008003474       0x7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x0000000008003474                vPortFree
  .text.prvGetDisinheritPriorityAfterTimeout
-                0x00000000080034e0       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x00000000080034f0       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvIsQueueFull
-                0x00000000080034f2       0x1e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000000008003502       0x1e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvIsQueueEmpty
-                0x0000000008003510       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000000008003520       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvCopyDataToQueue
-                0x000000000800352a       0x76 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x000000000800353a       0x76 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvUnlockQueue
-                0x00000000080035a0       0x6e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- *fill*         0x000000000800360e        0x2 
+                0x00000000080035b0       0x6e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ *fill*         0x000000000800361e        0x2 
  .text.xQueueGenericReset
-                0x0000000008003610       0x84 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x0000000008003610                xQueueGenericReset
+                0x0000000008003620       0x84 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000000008003620                xQueueGenericReset
  .text.prvInitialiseNewQueue
-                0x0000000008003694       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x00000000080036a4       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.xQueueGenericCreateStatic
-                0x00000000080036b0       0x92 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x00000000080036b0                xQueueGenericCreateStatic
+                0x00000000080036c0       0x92 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x00000000080036c0                xQueueGenericCreateStatic
  .text.xQueueGenericCreate
-                0x0000000008003742       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x0000000008003742                xQueueGenericCreate
- *fill*         0x000000000800378a        0x2 
+                0x0000000008003752       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000000008003752                xQueueGenericCreate
+ *fill*         0x000000000800379a        0x2 
  .text.xQueueGenericSend
-                0x000000000800378c      0x17c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x000000000800378c                xQueueGenericSend
+                0x000000000800379c      0x17c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x000000000800379c                xQueueGenericSend
  .text.xQueueGiveFromISR
-                0x0000000008003908       0xb2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x0000000008003908                xQueueGiveFromISR
- *fill*         0x00000000080039ba        0x2 
+                0x0000000008003918       0xb2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000000008003918                xQueueGiveFromISR
+ *fill*         0x00000000080039ca        0x2 
  .text.xQueueSemaphoreTake
-                0x00000000080039bc      0x19c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x00000000080039bc                xQueueSemaphoreTake
+                0x00000000080039cc      0x19c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x00000000080039cc                xQueueSemaphoreTake
  .text.prvResetNextTaskUnblockTime
-                0x0000000008003b58       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003b68       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvInitialiseNewTask
-                0x0000000008003b84       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003b94       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvInitialiseTaskLists
-                0x0000000008003c10       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003c20       0x68 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvAddNewTaskToReadyList
-                0x0000000008003c78       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003c88       0xa8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvDeleteTCB
-                0x0000000008003d20       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003d30       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvCheckTasksWaitingTermination
-                0x0000000008003d58       0x4c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003d68       0x4c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvIdleTask
-                0x0000000008003da4       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003db4       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvAddCurrentTaskToDelayedList
-                0x0000000008003dcc       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003ddc       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.xTaskCreateStatic
-                0x0000000008003e64       0x74 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008003e64                xTaskCreateStatic
+                0x0000000008003e74       0x74 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003e74                xTaskCreateStatic
  .text.xTaskCreate
-                0x0000000008003ed8       0x66 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008003ed8                xTaskCreate
- *fill*         0x0000000008003f3e        0x2 
+                0x0000000008003ee8       0x66 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003ee8                xTaskCreate
+ *fill*         0x0000000008003f4e        0x2 
  .text.vTaskStartScheduler
-                0x0000000008003f40       0x6c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008003f40                vTaskStartScheduler
+                0x0000000008003f50       0x6c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003f50                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x0000000008003fac       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008003fac                vTaskSuspendAll
+                0x0000000008003fbc       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003fbc                vTaskSuspendAll
  .text.xTaskIncrementTick
-                0x0000000008003fbc      0x118 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008003fbc                xTaskIncrementTick
+                0x0000000008003fcc      0x118 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008003fcc                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x00000000080040d4       0xf4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x00000000080040d4                xTaskResumeAll
+                0x00000000080040e4       0xf4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000000080040e4                xTaskResumeAll
  .text.vTaskDelay
-                0x00000000080041c8       0x4c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x00000000080041c8                vTaskDelay
+                0x00000000080041d8       0x4c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000000080041d8                vTaskDelay
  .text.vTaskSwitchContext
-                0x0000000008004214       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008004214                vTaskSwitchContext
+                0x0000000008004224       0x98 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004224                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x00000000080042ac       0x30 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x00000000080042ac                vTaskPlaceOnEventList
+                0x00000000080042bc       0x30 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000000080042bc                vTaskPlaceOnEventList
  .text.xTaskRemoveFromEventList
-                0x00000000080042dc       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x00000000080042dc                xTaskRemoveFromEventList
+                0x00000000080042ec       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000000080042ec                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x0000000008004368       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008004368                vTaskInternalSetTimeOutState
+                0x0000000008004378       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004378                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000008004380       0x80 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008004380                xTaskCheckForTimeOut
+                0x0000000008004390       0x80 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004390                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000008004400        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008004400                vTaskMissedYield
+                0x0000000008004410        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004410                vTaskMissedYield
  .text.xTaskGetSchedulerState
-                0x000000000800440c       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x000000000800440c                xTaskGetSchedulerState
+                0x000000000800441c       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x000000000800441c                xTaskGetSchedulerState
  .text.xTaskPriorityInherit
-                0x000000000800442c       0xac CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x000000000800442c                xTaskPriorityInherit
+                0x000000000800443c       0xac CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x000000000800443c                xTaskPriorityInherit
  .text.xTaskPriorityDisinherit
-                0x00000000080044d8       0xb0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x00000000080044d8                xTaskPriorityDisinherit
+                0x00000000080044e8       0xb0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000000080044e8                xTaskPriorityDisinherit
  .text.vTaskPriorityDisinheritAfterTimeout
-                0x0000000008004588       0xb4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000008004588                vTaskPriorityDisinheritAfterTimeout
+                0x0000000008004598       0xb4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004598                vTaskPriorityDisinheritAfterTimeout
  .text.pvTaskIncrementMutexHeldCount
-                0x000000000800463c       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x000000000800463c                pvTaskIncrementMutexHeldCount
+                0x000000000800464c       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x000000000800464c                pvTaskIncrementMutexHeldCount
  .text.BMI088_GPIO_init
-                0x0000000008004658        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x0000000008004658                BMI088_GPIO_init
+                0x0000000008004668        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x0000000008004668                BMI088_GPIO_init
  .text.BMI088_com_init
-                0x000000000800465a        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x000000000800465a                BMI088_com_init
+                0x000000000800466a        0x2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x000000000800466a                BMI088_com_init
  .text.BMI088_delay_us
-                0x000000000800465c       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x000000000800465c                BMI088_delay_us
+                0x000000000800466c       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x000000000800466c                BMI088_delay_us
  .text.BMI088_delay_ms
-                0x0000000008004694       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x0000000008004694                BMI088_delay_ms
+                0x00000000080046a4       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x00000000080046a4                BMI088_delay_ms
  .text.BMI088_ACCEL_NS_L
-                0x00000000080046ac       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x00000000080046ac                BMI088_ACCEL_NS_L
+                0x00000000080046bc       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x00000000080046bc                BMI088_ACCEL_NS_L
  .text.BMI088_ACCEL_NS_H
-                0x00000000080046c0       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x00000000080046c0                BMI088_ACCEL_NS_H
+                0x00000000080046d0       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x00000000080046d0                BMI088_ACCEL_NS_H
  .text.BMI088_GYRO_NS_L
-                0x00000000080046d4       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x00000000080046d4                BMI088_GYRO_NS_L
+                0x00000000080046e4       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x00000000080046e4                BMI088_GYRO_NS_L
  .text.BMI088_GYRO_NS_H
-                0x00000000080046e8       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x00000000080046e8                BMI088_GYRO_NS_H
+                0x00000000080046f8       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x00000000080046f8                BMI088_GYRO_NS_H
  .text.BMI088_read_write_byte
-                0x00000000080046fc       0x28 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
-                0x00000000080046fc                BMI088_read_write_byte
+                0x000000000800470c       0x2c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+                0x000000000800470c                BMI088_read_write_byte
  .text.BMI088_write_single_reg
-                0x0000000008004724       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x0000000008004738       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  .text.BMI088_read_single_reg
-                0x0000000008004734       0x16 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x0000000008004748       0x16 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  .text.BMI088_read_muli_reg
-                0x000000000800474a       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
- *fill*         0x000000000800476e        0x2 
+                0x000000000800475e       0x24 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ *fill*         0x0000000008004782        0x2 
  .text.bmi088_accel_init
-                0x0000000008004770      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x0000000008004770                bmi088_accel_init
+                0x0000000008004784      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x0000000008004784                bmi088_accel_init
  .text.bmi088_gyro_init
-                0x000000000800487c       0xec CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x000000000800487c                bmi088_gyro_init
+                0x0000000008004890       0xec CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x0000000008004890                bmi088_gyro_init
  .text.BMI088_init
-                0x0000000008004968       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x0000000008004968                BMI088_init
- *fill*         0x0000000008004982        0x2 
+                0x000000000800497c       0x1a CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x000000000800497c                BMI088_init
+ *fill*         0x0000000008004996        0x2 
  .text.BMI088_read
-                0x0000000008004984      0x164 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x0000000008004984                BMI088_read
+                0x0000000008004998      0x164 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x0000000008004998                BMI088_read
  .text.__libc_init_array
-                0x0000000008004ae8       0x48 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
-                0x0000000008004ae8                __libc_init_array
- .text.memset   0x0000000008004b30       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
-                0x0000000008004b30                memset
+                0x0000000008004afc       0x48 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                0x0000000008004afc                __libc_init_array
+ .text.memset   0x0000000008004b44       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                0x0000000008004b44                memset
  .text.startup.register_fini
-                0x0000000008004bc4       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x0000000008004bd8        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
-                0x0000000008004bd8                atexit
+                0x0000000008004bd8       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0000000008004bec        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                0x0000000008004bec                atexit
  .text.__libc_fini_array
-                0x0000000008004be4       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
-                0x0000000008004be4                __libc_fini_array
+                0x0000000008004bf8       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                0x0000000008004bf8                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x0000000008004c18        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
-                0x0000000008004c18                __retarget_lock_acquire_recursive
+                0x0000000008004c2c        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000008004c2c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008004c1c        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
-                0x0000000008004c1c                __retarget_lock_release_recursive
+                0x0000000008004c30        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000008004c30                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x0000000008004c20       0xc0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
-                0x0000000008004c20                __register_exitproc
+                0x0000000008004c34       0xc0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                0x0000000008004c34                __register_exitproc
  *(.glue_7)
- .glue_7        0x0000000008004ce0        0x0 linker stubs
+ .glue_7        0x0000000008004cf4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008004ce0        0x0 linker stubs
+ .glue_7t       0x0000000008004cf4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008004ce0        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x0000000008004cf4        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008004ce0        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x0000000008004ce0                _init
- .init          0x0000000008004ce4        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .init          0x0000000008004cf4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000008004cf4                _init
+ .init          0x0000000008004cf8        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008004cec        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x0000000008004cec                _fini
- .fini          0x0000000008004cf0        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
-                0x0000000008004cf8                . = ALIGN (0x4)
-                0x0000000008004cf8                _etext = .
+ .fini          0x0000000008004d00        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000008004d00                _fini
+ .fini          0x0000000008004d04        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x0000000008004d0c                . = ALIGN (0x4)
+                0x0000000008004d0c                _etext = .
 
-.vfp11_veneer   0x0000000008004cf8        0x0
- .vfp11_veneer  0x0000000008004cf8        0x0 linker stubs
+.vfp11_veneer   0x0000000008004d0c        0x0
+ .vfp11_veneer  0x0000000008004d0c        0x0 linker stubs
 
-.v4_bx          0x0000000008004cf8        0x0
- .v4_bx         0x0000000008004cf8        0x0 linker stubs
+.v4_bx          0x0000000008004d0c        0x0
+ .v4_bx         0x0000000008004d0c        0x0 linker stubs
 
-.iplt           0x0000000008004cf8        0x0
- .iplt          0x0000000008004cf8        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.iplt           0x0000000008004d0c        0x0
+ .iplt          0x0000000008004d0c        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.rodata         0x0000000008004cf8       0xa0
-                0x0000000008004cf8                . = ALIGN (0x4)
+.rodata         0x0000000008004d0c       0xa0
+                0x0000000008004d0c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008004cf8       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+ .rodata        0x0000000008004d0c       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
  *(.rodata*)
  .rodata.str1.4
-                0x0000000008004d30       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                0x0000000008004d44       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
  .rodata.AHBPrescTable
-                0x0000000008004d44       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0000000008004d44                AHBPrescTable
+                0x0000000008004d58       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0000000008004d58                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008004d54        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0000000008004d54                APBPrescTable
+                0x0000000008004d68        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0000000008004d68                APBPrescTable
  .rodata.flagBitshiftOffset.8305
-                0x0000000008004d5c        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008004d70        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .rodata.vTaskStartScheduler.str1.4
-                0x0000000008004d64        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000008004d78        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
                                           0x5 (size before relaxing)
  .rodata.write_BMI088_accel_reg_data_error
-                0x0000000008004d6c       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
- *fill*         0x0000000008004d7e        0x2 
- .rodata.write_BMI088_gyro_reg_data_error
                 0x0000000008004d80       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
  *fill*         0x0000000008004d92        0x2 
+ .rodata.write_BMI088_gyro_reg_data_error
+                0x0000000008004d94       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ *fill*         0x0000000008004da6        0x2 
  .rodata._global_impure_ptr
-                0x0000000008004d94        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
-                0x0000000008004d94                _global_impure_ptr
-                0x0000000008004d98                . = ALIGN (0x4)
+                0x0000000008004da8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000008004da8                _global_impure_ptr
+                0x0000000008004dac                . = ALIGN (0x4)
 
-.ARM.extab      0x0000000008004d98        0x0
-                0x0000000008004d98                . = ALIGN (0x4)
+.ARM.extab      0x0000000008004dac        0x0
+                0x0000000008004dac                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008004d98                . = ALIGN (0x4)
+                0x0000000008004dac                . = ALIGN (0x4)
 
-.ARM            0x0000000008004d98        0x8
-                0x0000000008004d98                . = ALIGN (0x4)
-                0x0000000008004d98                __exidx_start = .
+.ARM            0x0000000008004dac        0x8
+                0x0000000008004dac                . = ALIGN (0x4)
+                0x0000000008004dac                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0000000008004d98        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000008004da0                __exidx_end = .
-                0x0000000008004da0                . = ALIGN (0x4)
+ .ARM.exidx     0x0000000008004dac        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008004db4                __exidx_end = .
+                0x0000000008004db4                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008004da0        0x0
- .rel.iplt      0x0000000008004da0        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.rel.dyn        0x0000000008004db4        0x0
+ .rel.iplt      0x0000000008004db4        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.preinit_array  0x0000000008004da0        0x0
-                0x0000000008004da0                . = ALIGN (0x4)
-                0x0000000008004da0                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000008004db4        0x0
+                0x0000000008004db4                . = ALIGN (0x4)
+                0x0000000008004db4                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0000000008004da0                PROVIDE (__preinit_array_end, .)
-                0x0000000008004da0                . = ALIGN (0x4)
+                0x0000000008004db4                PROVIDE (__preinit_array_end, .)
+                0x0000000008004db4                . = ALIGN (0x4)
 
-.init_array     0x0000000008004da0        0x8
-                0x0000000008004da0                . = ALIGN (0x4)
-                0x0000000008004da0                PROVIDE (__init_array_start, .)
+.init_array     0x0000000008004db4        0x8
+                0x0000000008004db4                . = ALIGN (0x4)
+                0x0000000008004db4                PROVIDE (__init_array_start, .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0000000008004da0        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000008004db4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0000000008004da4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-                0x0000000008004da8                PROVIDE (__init_array_end, .)
-                0x0000000008004da8                . = ALIGN (0x4)
+ .init_array    0x0000000008004db8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x0000000008004dbc                PROVIDE (__init_array_end, .)
+                0x0000000008004dbc                . = ALIGN (0x4)
 
-.fini_array     0x0000000008004da8        0x4
-                0x0000000008004da8                . = ALIGN (0x4)
-                0x0000000008004da8                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000000008004dbc        0x4
+                0x0000000008004dbc                . = ALIGN (0x4)
+                0x0000000008004dbc                PROVIDE (__fini_array_start, .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008004da8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-                0x0000000008004dac                PROVIDE (__fini_array_end, .)
-                0x0000000008004dac                . = ALIGN (0x4)
-                0x0000000008004dac                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008004dbc        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x0000000008004dc0                PROVIDE (__fini_array_end, .)
+                0x0000000008004dc0                . = ALIGN (0x4)
+                0x0000000008004dc0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x444 load address 0x0000000008004dac
+.data           0x0000000020000000      0x444 load address 0x0000000008004dc0
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2302,11 +2304,11 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x0000000020000444                . = ALIGN (0x4)
                 0x0000000020000444                _edata = .
 
-.igot.plt       0x0000000020000444        0x0 load address 0x00000000080051f0
+.igot.plt       0x0000000020000444        0x0 load address 0x0000000008005204
  .igot.plt      0x0000000020000444        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x0000000020000444                . = ALIGN (0x4)
 
-.bss            0x0000000020000444     0x42a4 load address 0x00000000080051f0
+.bss            0x0000000020000444     0x42a8 load address 0x0000000008005204
                 0x0000000020000444                _sbss = .
                 0x0000000020000444                __bss_start__ = _sbss
  *(.bss)
@@ -2318,125 +2320,129 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
  .bss.Binary10msHandle
                 0x0000000020000464        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
                 0x0000000020000464                Binary10msHandle
- .bss.defaultTaskHandle
+ .bss.BinaryNSLowHandle
                 0x0000000020000468        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
-                0x0000000020000468                defaultTaskHandle
+                0x0000000020000468                BinaryNSLowHandle
+ .bss.defaultTaskHandle
+                0x000000002000046c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                0x000000002000046c                defaultTaskHandle
  .bss.xIdleStack
-                0x000000002000046c      0x200 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                0x0000000020000470      0x200 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
  .bss.xIdleTaskTCBBuffer
-                0x000000002000066c       0x54 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                0x0000000020000670       0x54 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
  .bss.hdma_spi1_rx
-                0x00000000200006c0       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                0x00000000200006c0                hdma_spi1_rx
+                0x00000000200006c4       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                0x00000000200006c4                hdma_spi1_rx
  .bss.hdma_spi1_tx
-                0x0000000020000720       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                0x0000000020000720                hdma_spi1_tx
- .bss.hspi1     0x0000000020000780       0x58 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
-                0x0000000020000780                hspi1
- .bss.htim7     0x00000000200007d8       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
-                0x00000000200007d8                htim7
- .bss.htim10    0x0000000020000820       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000020000820                htim10
- .bss.htim3     0x0000000020000868       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
-                0x0000000020000868                htim3
+                0x0000000020000724       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                0x0000000020000724                hdma_spi1_tx
+ .bss.hspi1     0x0000000020000784       0x58 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+                0x0000000020000784                hspi1
+ .bss.htim7     0x00000000200007dc       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+                0x00000000200007dc                htim7
+ .bss.htim10    0x0000000020000824       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x0000000020000824                htim10
+ .bss.htim3     0x000000002000086c       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+                0x000000002000086c                htim3
  .bss.hdma_usart1_tx
-                0x00000000200008b0       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
-                0x00000000200008b0                hdma_usart1_tx
- .bss.huart1    0x0000000020000910       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
-                0x0000000020000910                huart1
- .bss.uwTick    0x0000000020000954        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000020000954                uwTick
+                0x00000000200008b4       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+                0x00000000200008b4                hdma_usart1_tx
+ .bss.huart1    0x0000000020000914       0x44 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+                0x0000000020000914                huart1
+ .bss.uwTick    0x0000000020000958        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000020000958                uwTick
  .bss.ucMaxSysCallPriority
-                0x0000000020000958        0x1 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- *fill*         0x0000000020000959        0x3 
+                0x000000002000095c        0x1 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ *fill*         0x000000002000095d        0x3 
  .bss.ulMaxPRIGROUPValue
-                0x000000002000095c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .bss.pxEnd     0x0000000020000960        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.ucHeap    0x0000000020000964     0x3c00 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x0000000020000960        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .bss.pxEnd     0x0000000020000964        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .bss.ucHeap    0x0000000020000968     0x3c00 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .bss.xBlockAllocatedBit
-                0x0000000020004564        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.xFreeBytesRemaining
                 0x0000000020004568        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.xMinimumEverFreeBytesRemaining
+ .bss.xFreeBytesRemaining
                 0x000000002000456c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.xNumberOfSuccessfulAllocations
+ .bss.xMinimumEverFreeBytesRemaining
                 0x0000000020004570        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.xNumberOfSuccessfulFrees
+ .bss.xNumberOfSuccessfulAllocations
                 0x0000000020004574        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .bss.xStart    0x0000000020004578        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .bss.xNumberOfSuccessfulFrees
+                0x0000000020004578        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .bss.xStart    0x000000002000457c        0x8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .bss.pxCurrentTCB
-                0x0000000020004580        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0000000020004580                pxCurrentTCB
- .bss.pxDelayedTaskList
                 0x0000000020004584        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.pxOverflowDelayedTaskList
+                0x0000000020004584                pxCurrentTCB
+ .bss.pxDelayedTaskList
                 0x0000000020004588        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .bss.pxOverflowDelayedTaskList
+                0x000000002000458c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.pxReadyTasksLists
-                0x000000002000458c       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004590       0x8c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.uxCurrentNumberOfTasks
-                0x0000000020004618        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.uxDeletedTasksWaitingCleanUp
                 0x000000002000461c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.uxSchedulerSuspended
+ .bss.uxDeletedTasksWaitingCleanUp
                 0x0000000020004620        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.uxTaskNumber
+ .bss.uxSchedulerSuspended
                 0x0000000020004624        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.uxTopReadyPriority
+ .bss.uxTaskNumber
                 0x0000000020004628        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .bss.uxTopReadyPriority
+                0x000000002000462c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xDelayedTaskList1
-                0x000000002000462c       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004630       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xDelayedTaskList2
-                0x0000000020004640       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004644       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xNextTaskUnblockTime
-                0x0000000020004654        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.xNumOfOverflows
                 0x0000000020004658        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.xPendedTicks
+ .bss.xNumOfOverflows
                 0x000000002000465c        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .bss.xPendedTicks
+                0x0000000020004660        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xPendingReadyList
-                0x0000000020004660       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004664       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xSchedulerRunning
-                0x0000000020004674        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004678        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xSuspendedTaskList
-                0x0000000020004678       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x000000002000467c       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xTasksWaitingTermination
-                0x000000002000468c       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0000000020004690       0x14 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .bss.xTickCount
-                0x00000000200046a0        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.xYieldPending
                 0x00000000200046a4        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .bss.accel     0x00000000200046a8        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x00000000200046a8                accel
- .bss.gyro      0x00000000200046b4        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x00000000200046b4                gyro
- .bss.temp      0x00000000200046c0        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                0x00000000200046c0                temp
+ .bss.xYieldPending
+                0x00000000200046a8        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .bss.accel     0x00000000200046ac        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x00000000200046ac                accel
+ .bss.gyro      0x00000000200046b8        0xc CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x00000000200046b8                gyro
+ .bss.temp      0x00000000200046c4        0x4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                0x00000000200046c4                temp
  *(COMMON)
- COMMON         0x00000000200046c4       0x21 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
-                0x00000000200046c4                __lock___atexit_recursive_mutex
-                0x00000000200046c8                __lock___arc4random_mutex
-                0x00000000200046cc                __lock___env_recursive_mutex
-                0x00000000200046d0                __lock___sinit_recursive_mutex
-                0x00000000200046d4                __lock___malloc_recursive_mutex
-                0x00000000200046d8                __lock___at_quick_exit_mutex
-                0x00000000200046dc                __lock___dd_hash_mutex
-                0x00000000200046e0                __lock___tz_mutex
-                0x00000000200046e4                __lock___sfp_recursive_mutex
-                0x00000000200046e8                . = ALIGN (0x4)
- *fill*         0x00000000200046e5        0x3 
-                0x00000000200046e8                _ebss = .
-                0x00000000200046e8                __bss_end__ = _ebss
+ COMMON         0x00000000200046c8       0x21 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000200046c8                __lock___atexit_recursive_mutex
+                0x00000000200046cc                __lock___arc4random_mutex
+                0x00000000200046d0                __lock___env_recursive_mutex
+                0x00000000200046d4                __lock___sinit_recursive_mutex
+                0x00000000200046d8                __lock___malloc_recursive_mutex
+                0x00000000200046dc                __lock___at_quick_exit_mutex
+                0x00000000200046e0                __lock___dd_hash_mutex
+                0x00000000200046e4                __lock___tz_mutex
+                0x00000000200046e8                __lock___sfp_recursive_mutex
+                0x00000000200046ec                . = ALIGN (0x4)
+ *fill*         0x00000000200046e9        0x3 
+                0x00000000200046ec                _ebss = .
+                0x00000000200046ec                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200046e8      0x600 load address 0x00000000080051f0
-                0x00000000200046e8                . = ALIGN (0x8)
+                0x00000000200046ec      0x604 load address 0x0000000008005204
+                0x00000000200046f0                . = ALIGN (0x8)
+ *fill*         0x00000000200046ec        0x4 
                 [!provide]                        PROVIDE (end, .)
-                0x00000000200046e8                PROVIDE (_end, .)
-                0x00000000200048e8                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200046e8      0x200 
-                0x0000000020004ce8                . = (. + _Min_Stack_Size)
- *fill*         0x00000000200048e8      0x400 
-                0x0000000020004ce8                . = ALIGN (0x8)
+                0x00000000200046f0                PROVIDE (_end, .)
+                0x00000000200048f0                . = (. + _Min_Heap_Size)
+ *fill*         0x00000000200046f0      0x200 
+                0x0000000020004cf0                . = (. + _Min_Stack_Size)
+ *fill*         0x00000000200048f0      0x400 
+                0x0000000020004cf0                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2536,38 +2542,38 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x00000000000008eb       0x22 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(BMI_088_SPI_Clion.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x1e7a2
+.debug_info     0x0000000000000000    0x1e835
  .debug_info    0x0000000000000000      0x629 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
- .debug_info    0x0000000000000629      0xe9c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
- .debug_info    0x00000000000014c5      0x5d0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000000000001a95     0x1194 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
- .debug_info    0x0000000000002c29      0xb34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x000000000000375d      0x5be CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0000000000003d1b      0xc9d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
- .debug_info    0x00000000000049b8      0xa8e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x0000000000005446      0x555 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x000000000000599b      0xfc8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x0000000000006963      0xcdf CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x0000000000007642       0x22 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
- .debug_info    0x0000000000007664      0x9ed CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x0000000000008051      0xf88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x0000000000008fd9      0xaa9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_info    0x0000000000009a82      0x7cc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x000000000000a24e      0xa90 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x000000000000acde     0x1c48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_info    0x000000000000c926     0x359a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x000000000000fec0     0x180b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x00000000000116cb     0x1a81 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x000000000001314c     0x2862 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_info    0x00000000000159ae      0xad4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x0000000000016482      0x56b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_info    0x00000000000169ed      0xdad CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x000000000001779a     0x2884 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x000000000001a01e     0x2f1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_info    0x000000000001cf3a      0x95c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
- .debug_info    0x000000000001d896      0xf0c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ .debug_info    0x0000000000000629      0xed5 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+ .debug_info    0x00000000000014fe      0x5d0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000000000001ace     0x119f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x0000000000002c6d      0xb34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x00000000000037a1      0x5be CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x0000000000003d5f      0xc9d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+ .debug_info    0x00000000000049fc      0xa8e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x000000000000548a      0x555 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00000000000059df      0xfc8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x00000000000069a7      0xcdf CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x0000000000007686       0x22 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+ .debug_info    0x00000000000076a8      0x9ed CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x0000000000008095      0xf88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x000000000000901d      0xaa9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_info    0x0000000000009ac6      0x7cc CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x000000000000a292      0xa90 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x000000000000ad22     0x1c48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_info    0x000000000000c96a     0x359a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x000000000000ff04     0x180b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x000000000001170f     0x1a81 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x0000000000013190     0x2862 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_info    0x00000000000159f2      0xad4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x00000000000164c6      0x56b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_info    0x0000000000016a31      0xdad CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x00000000000177de     0x2884 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x000000000001a062     0x2f1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_info    0x000000000001cf7e      0x95c CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+ .debug_info    0x000000000001d8da      0xf5b CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
-.debug_abbrev   0x0000000000000000     0x3e0f
+.debug_abbrev   0x0000000000000000     0x3e18
  .debug_abbrev  0x0000000000000000      0x13d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
  .debug_abbrev  0x000000000000013d      0x210 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
  .debug_abbrev  0x000000000000034d      0x15f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
@@ -2596,7 +2602,7 @@ OUTPUT(BMI_088_SPI_Clion.elf elf32-littlearm)
  .debug_abbrev  0x0000000000003294      0x3ab CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_abbrev  0x000000000000363f      0x3ae CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .debug_abbrev  0x00000000000039ed      0x1e8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
- .debug_abbrev  0x0000000000003bd5      0x23a CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ .debug_abbrev  0x0000000000003bd5      0x243 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
 .debug_aranges  0x0000000000000000     0x14f0
  .debug_aranges
@@ -2689,96 +2695,96 @@ OUTPUT(BMI_088_SPI_Clion.elf elf32-littlearm)
  .debug_ranges  0x0000000000001480       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
  .debug_ranges  0x00000000000014d0       0x40 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
-.debug_line     0x0000000000000000     0xbb06
+.debug_line     0x0000000000000000     0xbbf4
  .debug_line    0x0000000000000000      0x256 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
- .debug_line    0x0000000000000256      0x4ef CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
- .debug_line    0x0000000000000745      0x26a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000000000009af      0x56e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000000000000f1d      0x344 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x0000000000001261      0x261 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000000000014c2      0x2f4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
- .debug_line    0x00000000000017b6      0x358 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000001b0e      0x270 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x0000000000001d7e      0x3a0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x000000000000211e      0x349 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x0000000000002467       0xac CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
- .debug_line    0x0000000000002513      0x48e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00000000000029a1      0x4d8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x0000000000002e79      0x5b3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x000000000000342c      0x40a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x0000000000003836      0x54b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x0000000000003d81      0xd17 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x0000000000004a98     0x1f5a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00000000000069f2      0xf10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000007902      0xd7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x000000000000867e      0x9f9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_line    0x0000000000009077      0x393 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x000000000000940a      0x3a9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x00000000000097b3      0x47f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x0000000000009c32      0xa3d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x000000000000a66f      0xd77 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x000000000000b3e6      0x342 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
- .debug_line    0x000000000000b728      0x3de CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+ .debug_line    0x0000000000000256      0x4f1 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+ .debug_line    0x0000000000000747      0x26a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00000000000009b1      0x56e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x0000000000000f1f      0x344 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x0000000000001263      0x261 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000000000014c4      0x2f4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+ .debug_line    0x00000000000017b8      0x358 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000001b10      0x270 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x0000000000001d80      0x3a0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x0000000000002120      0x349 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000000000002469       0xac CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+ .debug_line    0x0000000000002515      0x48e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00000000000029a3      0x4d8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x0000000000002e7b      0x5b3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x000000000000342e      0x40a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x0000000000003838      0x54b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000000000003d83      0xd17 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_line    0x0000000000004a9a     0x1f5a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00000000000069f4      0xf10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000000000007904      0xd7c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000000000008680      0x9f9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_line    0x0000000000009079      0x393 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x000000000000940c      0x3a9 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x00000000000097b5      0x47f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x0000000000009c34      0xa3d CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x000000000000a671      0xd77 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x000000000000b3e8      0x342 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+ .debug_line    0x000000000000b72a      0x4ca CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 
-.debug_str      0x0000000000000000     0x724c
+.debug_str      0x0000000000000000     0x7288
  .debug_str     0x0000000000000000      0x8b8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
                                         0x911 (size before relaxing)
- .debug_str     0x00000000000008b8      0xa12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
-                                        0xd87 (size before relaxing)
- .debug_str     0x00000000000012ca       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
+ .debug_str     0x00000000000008b8      0xa41 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
+                                        0xdb6 (size before relaxing)
+ .debug_str     0x00000000000012f9       0x88 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
                                         0x4ba (size before relaxing)
- .debug_str     0x0000000000001352      0x5c3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
-                                        0xfa0 (size before relaxing)
- .debug_str     0x0000000000001915       0xb5 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
+ .debug_str     0x0000000000001381      0x5c3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
+                                        0xfb2 (size before relaxing)
+ .debug_str     0x0000000000001944       0xb5 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
                                         0x967 (size before relaxing)
- .debug_str     0x00000000000019ca       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x00000000000019f9       0x50 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
                                         0x90c (size before relaxing)
- .debug_str     0x0000000000001a1a      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+ .debug_str     0x0000000000001a49      0x10c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
                                         0xf81 (size before relaxing)
- .debug_str     0x0000000000001b26      0x167 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x0000000000001b55      0x167 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
                                         0xb54 (size before relaxing)
- .debug_str     0x0000000000001c8d       0xd3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000000000001cbc       0xd3 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj
                                         0x478 (size before relaxing)
- .debug_str     0x0000000000001d60      0x210 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
+ .debug_str     0x0000000000001d8f      0x210 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj
                                        0x1104 (size before relaxing)
- .debug_str     0x0000000000001f70       0x75 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x0000000000001f9f       0x75 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj
                                         0xe8d (size before relaxing)
- .debug_str     0x0000000000001fe5       0x5b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
+ .debug_str     0x0000000000002014       0x5b CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
                                          0x94 (size before relaxing)
- .debug_str     0x0000000000002040      0x2af CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x000000000000206f      0x2af CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                         0xc0a (size before relaxing)
- .debug_str     0x00000000000022ef      0x441 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x000000000000231e      0x441 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                         0xd49 (size before relaxing)
- .debug_str     0x0000000000002730      0x2fb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x000000000000275f      0x2fb CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
                                         0x895 (size before relaxing)
- .debug_str     0x0000000000002a2b      0x147 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x0000000000002a5a      0x147 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                         0x60f (size before relaxing)
- .debug_str     0x0000000000002b72      0x181 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x0000000000002ba1      0x181 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                         0x7ed (size before relaxing)
- .debug_str     0x0000000000002cf3      0x551 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_str     0x0000000000002d22      0x551 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
                                         0xd19 (size before relaxing)
- .debug_str     0x0000000000003244      0xda6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x0000000000003273      0xda6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                                        0x17f3 (size before relaxing)
- .debug_str     0x0000000000003fea      0x548 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000004019      0x548 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
                                         0xff4 (size before relaxing)
- .debug_str     0x0000000000004532      0x5e6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x0000000000004561      0x5e6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
                                         0xe53 (size before relaxing)
- .debug_str     0x0000000000004b18      0xf02 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_str     0x0000000000004b47      0xf02 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
                                        0x1584 (size before relaxing)
- .debug_str     0x0000000000005a1a      0x167 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_str     0x0000000000005a49      0x167 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
                                         0x75b (size before relaxing)
- .debug_str     0x0000000000005b81      0x251 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_str     0x0000000000005bb0      0x251 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
                                         0x4e1 (size before relaxing)
- .debug_str     0x0000000000005dd2      0x2f6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_str     0x0000000000005e01      0x2f6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
                                         0x969 (size before relaxing)
- .debug_str     0x00000000000060c8      0x591 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_str     0x00000000000060f7      0x591 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
                                         0xfc4 (size before relaxing)
- .debug_str     0x0000000000006659      0x7f1 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_str     0x0000000000006688      0x7f1 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
                                        0x14fd (size before relaxing)
- .debug_str     0x0000000000006e4a       0xff CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
+ .debug_str     0x0000000000006e79       0xff CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
                                         0x8a1 (size before relaxing)
- .debug_str     0x0000000000006f49      0x303 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
-                                        0xadd (size before relaxing)
+ .debug_str     0x0000000000006f78      0x310 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
+                                        0xb3f (size before relaxing)
 
 .comment        0x0000000000000000       0x7e
  .comment       0x0000000000000000       0x7e CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj

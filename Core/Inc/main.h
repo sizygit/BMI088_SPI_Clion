@@ -48,7 +48,7 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-
+void SPI_FullDuplexIQRHandled(void);
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/

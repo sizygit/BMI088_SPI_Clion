@@ -1182,6 +1182,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ..
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/BMI088Middleware.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/struct_typedef.h
 
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Core/Inc/FreeRTOSConfig.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Core/Inc/main.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Core/Inc/spi.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -1216,6 +1217,19 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Dri
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../component/BMI088/BMI088Middleware.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../component/BMI088/BMI088driver.c
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../component/BMI088/BMI088driver.h

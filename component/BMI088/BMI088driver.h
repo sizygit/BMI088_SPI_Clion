@@ -3,7 +3,8 @@
 
 #include "struct_typedef.h"
 #include "main.h"
-
+#include "FreeRTOS.h"
+#include "semphr.h"
 #define BMI088_TEMP_FACTOR 0.125f
 #define BMI088_TEMP_OFFSET 23.0f
 
