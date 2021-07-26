@@ -33,7 +33,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "struct_typedef.h"
-#include "BMI088driver.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -55,7 +55,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-extern float_32 gyro[3], accel[3], temp;
+
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

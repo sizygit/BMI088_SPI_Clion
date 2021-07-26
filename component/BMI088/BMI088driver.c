@@ -6,6 +6,7 @@
 float_32 BMI088_ACCEL_SEN = BMI088_ACCEL_3G_SEN;
 float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
 
+float_32 gyro[3], accel[3], temp = {0};
 #if defined(BMI088_USE_SPI)
 /**                 Multiple read operations (burst-read)
  *  are possible by keeping CSB low and continuing the data transfer(i.e. continuing to toggle SCK).

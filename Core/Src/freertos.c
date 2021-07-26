@@ -51,7 +51,7 @@
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 osThreadId BMI088Handle;
-osSemaphoreId BinaryBMIBeginHandle;
+osSemaphoreId Binary10msHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -94,9 +94,9 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE END RTOS_MUTEX */
 
   /* Create the semaphores(s) */
-  /* definition and creation of BinaryBMIBegin */
-  osSemaphoreDef(BinaryBMIBegin);
-  BinaryBMIBeginHandle = osSemaphoreCreate(osSemaphore(BinaryBMIBegin), 1);
+  /* definition and creation of Binary10ms */
+  osSemaphoreDef(Binary10ms);
+  Binary10msHandle = osSemaphoreCreate(osSemaphore(Binary10ms), 1);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -162,7 +162,7 @@ void BMI088Manage(void const * argument)
     HAL_TIM_Base_Start_IT(&htim3);  //enable the tim3 interrupt
     for(;;)
     {
-        if(xSemaphoreTake(BinaryBMIBeginHandle,portMAX_DELAY) == pdTRUE)
+        if(xSemaphoreTake(Binary10msHandle,portMAX_DELAY) == pdTRUE)
         {
             BMI088_read(gyro, accel, &temp);
         }

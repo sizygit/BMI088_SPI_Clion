@@ -30,7 +30,7 @@
 /* USER CODE BEGIN Includes */
 #include "semphr.h"
 #include "FreeRTOS.h"
-
+#include "BMI088driver.h"
 
 /* USER CODE END Includes */
 
@@ -63,8 +63,7 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-float_32 gyro[3], accel[3], temp;
-extern osSemaphoreId BinaryBMIBeginHandle;
+extern osSemaphoreId Binary10msHandle;
 /* USER CODE END 0 */
 
 /**
@@ -188,8 +187,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     if(htim->Instance == TIM3)  // 10ms have a BMI088 sample
     {
         BaseType_t pxHigherPriorityTaskWoken;
-        if(BinaryBMIBeginHandle != NULL)
-            xSemaphoreGiveFromISR(BinaryBMIBeginHandle,&pxHigherPriorityTaskWoken);
+        if(Binary10msHandle != NULL)
+            xSemaphoreGiveFromISR(Binary10msHandle,&pxHigherPriorityTaskWoken);
         portYIELD_FROM_ISR(pxHigherPriorityTaskWoken);
     }
   /* USER CODE END Callback 1 */

@@ -37,7 +37,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
 
@@ -127,7 +126,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_H
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
@@ -221,7 +219,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
 
@@ -258,7 +255,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Driver
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
 
@@ -330,7 +326,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 
@@ -406,7 +401,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 
@@ -444,7 +438,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
 
@@ -1185,7 +1178,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ..
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/BMI088Middleware.c
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/BMI088Middleware.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/struct_typedef.h
