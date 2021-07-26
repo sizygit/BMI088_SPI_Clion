@@ -81,7 +81,7 @@ void BMI088_GYRO_NS_H(void)
 uint8_t BMI088_read_write_byte(uint8_t txdata)
 {
     uint8_t rx_data;
-    HAL_SPI_TransmitReceive(&hspi1, &txdata, &rx_data, 1, 5);
+    HAL_SPI_TransmitReceive(&hspi1, &txdata, &rx_data, 1, 1);
     return rx_data;
 }
 
