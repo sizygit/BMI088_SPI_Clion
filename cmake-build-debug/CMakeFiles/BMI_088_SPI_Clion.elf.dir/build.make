@@ -89,9 +89,22 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/dma.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.s
 
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/freertos.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/freertos.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/freertos.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.s
+
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/gpio.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/main.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/spi.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,9 +154,22 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_msp.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
 
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_timebase_tim.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_timebase_tim.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_hal_timebase_tim.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s
+
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -156,7 +182,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/syscalls.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -169,7 +195,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/sysmem.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -182,7 +208,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -195,7 +221,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/tim.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -208,7 +234,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/usart.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -221,12 +247,12 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: ../Core/Startup/startup_stm32f407ighx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Core/Startup/startup_stm32f407ighx.s
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -239,7 +265,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +278,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -265,7 +291,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -278,7 +304,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -291,7 +317,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -304,7 +330,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -317,7 +343,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -330,7 +356,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -343,7 +369,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -356,7 +382,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -369,7 +395,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -382,7 +408,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -395,7 +421,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -408,7 +434,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -421,7 +447,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -434,7 +460,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -445,9 +471,139 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/croutine.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/croutine.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/list.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/list.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/list.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/queue.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/queue.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/timers.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/timers.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj: ../component/BMI088/BMI088Middleware.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088Middleware.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.i: cmake_force
@@ -460,7 +616,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.s: cmak
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj: ../component/BMI088/BMI088driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088driver.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.i: cmake_force
@@ -474,10 +630,12 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.s: cmake_fo
 # Object files for target BMI_088_SPI_Clion.elf
 BMI_088_SPI_Clion_elf_OBJECTS = \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj" \
@@ -502,6 +660,16 @@ BMI_088_SPI_Clion_elf_OBJECTS = \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj"
 
@@ -509,10 +677,12 @@ BMI_088_SPI_Clion_elf_OBJECTS = \
 BMI_088_SPI_Clion_elf_EXTERNAL_OBJECTS =
 
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/sysmem.c.obj
@@ -537,11 +707,21 @@ BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HA
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088Middleware.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable BMI_088_SPI_Clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C executable BMI_088_SPI_Clion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BMI_088_SPI_Clion.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/BMI_088_SPI_Clion.bin"

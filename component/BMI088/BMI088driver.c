@@ -1,7 +1,7 @@
 #include "BMI088driver.h"
 #include "BMI088reg.h"
 #include "BMI088Middleware.h"
-
+#include "spi.h"
 
 float_32 BMI088_ACCEL_SEN = BMI088_ACCEL_3G_SEN;
 float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
@@ -14,7 +14,7 @@ float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
  *
  */
 
-/**                 accelerometer part
+/**                 accelerometer part(normal part)
  *  In case of read operations of the accelerometer part, the requested data is not sent immediately, but
  *  instead first a dummy byte is sent, and after this dummy byte the actual reqested register content is
  *  transmitted
@@ -48,7 +48,22 @@ float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
         BMI088_read_muli_reg(reg, data, len);      \
         BMI088_ACCEL_NS_H();                       \
     }
-/**                 gyroscope part
+/**
+uint8_t sendbuf_none[6] = {0x55 ,0x55, 0x55, 0x55, 0x55 ,0x55};
+uint8_t rx_accDMAbuf[6] = {0};
+uint8_t rx_gDMAbuf[6] = {0};
+void BMI088_accel_read_muli_reg_DMA(uint8_t reg,uint8_t data,uint8_t len)
+    {
+        BMI088_ACCEL_NS_L();
+        BMI088_read_write_byte((reg) | 0x80);
+
+        BMI088_read_write_byte(reg | 0x80);
+        /* wait for unpredictable values
+
+    }
+    */
+
+/**                 gyroscope part(special paet)
  *  For single byte read as well as write operations, 16-bit protocols are used. The SPI interface also
  *  supports multiple-byte read operations (burst-read).
  *  ----The data bits are used as follows:

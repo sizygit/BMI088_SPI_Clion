@@ -9,6 +9,10 @@
 ../Core/Inc/main.h
 stm32f4xx_hal.h
 ../Core/Inc/stm32f4xx_hal.h
+struct_typedef.h
+../Core/Inc/struct_typedef.h
+BMI088driver.h
+../Core/Inc/BMI088driver.h
 
 ../Core/Inc/stm32f4xx_hal_conf.h
 stm32f4xx_hal_rcc.h
@@ -309,6 +313,12 @@ stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+
+../component/BMI088/BMI088driver.h
+struct_typedef.h
+../component/BMI088/struct_typedef.h
+main.h
+../component/BMI088/main.h
 
 /home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088Middleware.c
 BMI088Middleware.h
