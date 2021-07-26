@@ -93,12 +93,14 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI1_Init();
   MX_TIM10_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
     while(BMI088_init())
     {
         HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_SET);
     }
     HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_RESET);
+    HAL_TIM_Base_Start_IT(&htim3);  //enable the tim3 interrupt
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -106,8 +108,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      BMI088_read(gyro,accel,&temp);
-      HAL_Delay(10);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -157,7 +158,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if(htim->Instance == TIM3)  // 10ms have a BMI088 sample
+   {
+        BMI088_read(gyro,accel,&temp);
+    }
 
+}
 /* USER CODE END 4 */
 
 /**
