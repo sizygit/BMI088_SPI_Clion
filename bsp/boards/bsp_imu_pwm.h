@@ -8,6 +8,7 @@ extern "C" {
 
 #include "struct_typedef.h"
 #include "main.h"
+#include "tim.h"
 extern void imu_pwm_set(uint16_t pwm);
 
 #ifdef __cplusplus

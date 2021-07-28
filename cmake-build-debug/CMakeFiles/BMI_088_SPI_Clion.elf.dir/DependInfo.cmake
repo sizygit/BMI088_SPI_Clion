@@ -80,7 +80,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-  "/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_delay.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_imu_pwm.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_spi.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.obj"
@@ -119,6 +118,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.cpp" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj"
+  "/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.cpp" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

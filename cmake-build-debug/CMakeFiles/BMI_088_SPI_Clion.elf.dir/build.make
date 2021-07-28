@@ -653,18 +653,18 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tim
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/timers.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../applications/INS_Task.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj"
-	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../applications/INS_Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj -c /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.cpp
 
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.i"
-	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c > CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.i
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.cpp > CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.i
 
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.s"
-	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.s
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.cpp -o CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.s
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: CMakeFiles/BMI_088_SPI_Clion.elf.dir/flags.make
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: ../bsp/boards/bsp_delay.c
@@ -804,7 +804,7 @@ BMI_088_SPI_Clion_elf_OBJECTS = \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
-"CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj" \
+"CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj" \
 "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.obj" \
@@ -861,7 +861,7 @@ BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Pa
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj
+BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj
 BMI_088_SPI_Clion.elf: CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.obj

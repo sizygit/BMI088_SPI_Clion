@@ -15,4 +15,8 @@ typedef double double_64;
 
 
 
+#ifdef __cplusplus
+}
 #endif
+
+#endif /* __DMA_H__ */

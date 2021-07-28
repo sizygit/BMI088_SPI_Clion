@@ -29,8 +29,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "semphr.h"
-#include "FreeRTOS.h"
+
 #include "BMI088driver.h"
 #include "ist8310driver.h"
 /* USER CODE END Includes */

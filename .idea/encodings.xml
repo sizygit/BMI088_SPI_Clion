@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/applications/IMU_TempControl_Task.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/applications/IMU_TempControl_Task.h" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/applications/INS_Task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/INS_Task.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/applications/INS_Task.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/applications/pid.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/applications/pid.h" charset="GBK" />

@@ -1339,32 +1339,32 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
-applications/INS_Task.obj: applications/INS_Task.c.obj
+applications/INS_Task.obj: applications/INS_Task.cpp.obj
 
 .PHONY : applications/INS_Task.obj
 
 # target to build an object file
-applications/INS_Task.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj
-.PHONY : applications/INS_Task.c.obj
+applications/INS_Task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj
+.PHONY : applications/INS_Task.cpp.obj
 
-applications/INS_Task.i: applications/INS_Task.c.i
+applications/INS_Task.i: applications/INS_Task.cpp.i
 
 .PHONY : applications/INS_Task.i
 
 # target to preprocess a source file
-applications/INS_Task.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.i
-.PHONY : applications/INS_Task.c.i
+applications/INS_Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.i
+.PHONY : applications/INS_Task.cpp.i
 
-applications/INS_Task.s: applications/INS_Task.c.s
+applications/INS_Task.s: applications/INS_Task.cpp.s
 
 .PHONY : applications/INS_Task.s
 
 # target to generate assembly for a file
-applications/INS_Task.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.s
-.PHONY : applications/INS_Task.c.s
+applications/INS_Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.s
+.PHONY : applications/INS_Task.cpp.s
 
 bsp/boards/bsp_delay.obj: bsp/boards/bsp_delay.c.obj
 

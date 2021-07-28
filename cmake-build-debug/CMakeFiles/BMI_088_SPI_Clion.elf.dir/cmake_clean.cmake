@@ -46,7 +46,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-  "CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj"
+  "CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.obj"

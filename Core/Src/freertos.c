@@ -28,6 +28,7 @@
 /* USER CODE BEGIN Includes */
 #include "BMI088driver.h"
 #include "tim.h"
+#include "INS_Task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -176,6 +177,7 @@ void BMI088Manage(void const * argument)
         if(xSemaphoreTake(Binary10msHandle,portMAX_DELAY) == pdTRUE)
         {
             BMI088_read(gyro, accel, &temp);
+            //HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
         }
     }
   /* USER CODE END BMI088Manage */

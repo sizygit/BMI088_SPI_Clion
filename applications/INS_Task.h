@@ -87,7 +87,7 @@ extern "C" {
   * @param[in]      pvParameters: NULL
   * @retval         none
   */
-extern void INS_task(void const *pvParameters);
+extern void INS_Task(void const *pvParameters);
 
 /**
   * @brief          calculate gyro zero drift

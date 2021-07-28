@@ -39,7 +39,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -92,6 +91,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Thi
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../applications/INS_Task.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../component/BMI088/BMI088driver.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
@@ -132,7 +132,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_H
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Core/Inc/i2c.h
@@ -171,7 +170,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/main.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -270,7 +268,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Inc/main.h
@@ -308,7 +305,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Driver
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -383,7 +379,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
@@ -462,7 +457,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Core/Inc/main.h
@@ -501,7 +495,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../component/BMI088/struct_typedef.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -1314,62 +1307,6 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tim
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Core/Inc/FreeRTOSConfig.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Core/Inc/main.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../bsp/boards/bsp_imu_pwm.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../bsp/boards/bsp_spi.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../component/BMI088/struct_typedef.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../component/IST8310/ist8310driver.h
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../applications/INS_Task.c
-CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj: ../applications/INS_Task.h
-
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: ../Core/Inc/main.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
@@ -1411,6 +1348,7 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj: ../bsp/boards/b
 
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Core/Inc/main.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Core/Inc/tim.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -1661,6 +1599,100 @@ CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.c.obj: ../component/IST8310/ist8310driver_middleware.c
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.c.obj: ../component/IST8310/ist8310driver_middleware.h
 
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Core/Inc/main.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Algorithms/PID/pid.cpp
 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj: ../Algorithms/PID/pid.h
+
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Algorithms/PID/pid.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Core/Inc/FreeRTOSConfig.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Core/Inc/main.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Core/Inc/tim.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../bsp/boards/bsp_imu_pwm.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../bsp/boards/bsp_spi.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../component/BMI088/BMI088driver.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../component/BMI088/struct_typedef.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../component/IST8310/ist8310driver.h
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../applications/INS_Task.cpp
+CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.cpp.obj: ../applications/INS_Task.h
 

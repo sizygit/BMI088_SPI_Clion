@@ -487,7 +487,7 @@
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/STM32F407IGHX_FLASH.ld">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
-		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c">
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.cpp">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.h">
