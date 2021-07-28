@@ -59,6 +59,10 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/applications"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -95,6 +99,10 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/applications"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -110,6 +118,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.cpp">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/FreeRTOSConfig.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
@@ -117,6 +131,9 @@
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/gpio.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/i2c.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Inc/main.h">
@@ -144,6 +161,9 @@
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/gpio.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/i2c.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/main.c">
@@ -287,6 +307,12 @@
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
@@ -336,6 +362,12 @@
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
@@ -455,6 +487,30 @@
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/STM32F407IGHX_FLASH.ld">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/applications/INS_Task.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_delay.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_delay.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_imu_pwm.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_imu_pwm.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_spi.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards/bsp_spi.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/BMI088Middleware.c">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
@@ -471,6 +527,18 @@
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/BMI088/struct_typedef.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310/ist8310driver.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310/ist8310driver.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310/ist8310driver_middleware.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/component/IST8310/ist8310driver_middleware.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/CMakeLists.txt">

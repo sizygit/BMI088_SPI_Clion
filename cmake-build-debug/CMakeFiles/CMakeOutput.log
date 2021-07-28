@@ -35,18 +35,18 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_39ed0/fast && /usr/bin/make  -f CMakeFiles/cmTC_39ed0.dir/build.make CMakeFiles/cmTC_39ed0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1367f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1367f.dir/build.make CMakeFiles/cmTC_1367f.dir/build
 make[1]: Entering directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj
-/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc
 Target: arm-none-eabi
 Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1 -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccvjYUSP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1 -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccdoottF.s
 GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
 
@@ -67,17 +67,17 @@ GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 1d76a909f726f6b106e4dfbebe199a23
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj /tmp/ccvjYUSP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj /tmp/ccdoottF.s
 GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128
 COMPILER_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c'
-Linking C static library libcmTC_39ed0.a
-/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_39ed0.dir/cmake_clean_target.cmake
-/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ed0.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_39ed0.a CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj
-/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_39ed0.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C static library libcmTC_1367f.a
+/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_1367f.dir/cmake_clean_target.cmake
+/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1367f.dir/link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_1367f.a CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_1367f.a
 make[1]: Leaving directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -99,18 +99,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_39ed0/fast && /usr/bin/make  -f CMakeFiles/cmTC_39ed0.dir/build.make CMakeFiles/cmTC_39ed0.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1367f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1367f.dir/build.make CMakeFiles/cmTC_1367f.dir/build]
   ignore line: [make[1]: Entering directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1 -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccvjYUSP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1 -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccdoottF.s]
   ignore line: [GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
   ignore line: []
@@ -131,17 +131,17 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 1d76a909f726f6b106e4dfbebe199a23]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj /tmp/ccvjYUSP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj /tmp/ccdoottF.s]
   ignore line: [GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128]
   ignore line: [COMPILER_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [Linking C static library libcmTC_39ed0.a]
-  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_39ed0.dir/cmake_clean_target.cmake]
-  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ed0.dir/link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_39ed0.a CMakeFiles/cmTC_39ed0.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_39ed0.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C static library libcmTC_1367f.a]
+  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_1367f.dir/cmake_clean_target.cmake]
+  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1367f.dir/link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_1367f.a CMakeFiles/cmTC_1367f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_1367f.a]
   ignore line: [make[1]: Leaving directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
@@ -153,18 +153,18 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_70b19/fast && /usr/bin/make  -f CMakeFiles/cmTC_70b19.dir/build.make CMakeFiles/cmTC_70b19.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d77fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_d77fc.dir/build.make CMakeFiles/cmTC_d77fc.dir/build
 make[1]: Entering directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj
-/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++
 Target: arm-none-eabi
 Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccQD9QeS.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccSI9LLH.s
 GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
 
@@ -191,17 +191,17 @@ GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 92377522f4e1721a565bc0ceff793996
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccQD9QeS.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccSI9LLH.s
 GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128
 COMPILER_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
-Linking CXX static library libcmTC_70b19.a
-/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_70b19.dir/cmake_clean_target.cmake
-/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b19.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_70b19.a CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj
-/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_70b19.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX static library libcmTC_d77fc.a
+/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_d77fc.dir/cmake_clean_target.cmake
+/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d77fc.dir/link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_d77fc.a CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_d77fc.a
 make[1]: Leaving directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -229,18 +229,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_70b19/fast && /usr/bin/make  -f CMakeFiles/cmTC_70b19.dir/build.make CMakeFiles/cmTC_70b19.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d77fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_d77fc.dir/build.make CMakeFiles/cmTC_d77fc.dir/build]
   ignore line: [make[1]: Entering directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj -c /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccQD9QeS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus -quiet -v -iprefix /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/ -isysroot /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /home/szy/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccSI9LLH.s]
   ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
   ignore line: []
@@ -267,17 +267,17 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 92377522f4e1721a565bc0ceff793996]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccQD9QeS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccSI9LLH.s]
   ignore line: [GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128]
   ignore line: [COMPILER_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/:/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [Linking CXX static library libcmTC_70b19.a]
-  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_70b19.dir/cmake_clean_target.cmake]
-  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b19.dir/link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_70b19.a CMakeFiles/cmTC_70b19.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_70b19.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX static library libcmTC_d77fc.a]
+  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -P CMakeFiles/cmTC_d77fc.dir/cmake_clean_target.cmake]
+  ignore line: [/home/szy/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d77fc.dir/link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_d77fc.a CMakeFiles/cmTC_d77fc.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-ranlib libcmTC_d77fc.a]
   ignore line: [make[1]: Leaving directory '/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []

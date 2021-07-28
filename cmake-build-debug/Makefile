@@ -142,6 +142,33 @@ BMI_088_SPI_Clion.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/build
 .PHONY : BMI_088_SPI_Clion.elf/fast
 
+Algorithms/PID/pid.obj: Algorithms/PID/pid.cpp.obj
+
+.PHONY : Algorithms/PID/pid.obj
+
+# target to build an object file
+Algorithms/PID/pid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj
+.PHONY : Algorithms/PID/pid.cpp.obj
+
+Algorithms/PID/pid.i: Algorithms/PID/pid.cpp.i
+
+.PHONY : Algorithms/PID/pid.i
+
+# target to preprocess a source file
+Algorithms/PID/pid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.i
+.PHONY : Algorithms/PID/pid.cpp.i
+
+Algorithms/PID/pid.s: Algorithms/PID/pid.cpp.s
+
+.PHONY : Algorithms/PID/pid.s
+
+# target to generate assembly for a file
+Algorithms/PID/pid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.s
+.PHONY : Algorithms/PID/pid.cpp.s
+
 Core/Src/dma.obj: Core/Src/dma.c.obj
 
 .PHONY : Core/Src/dma.obj
@@ -222,6 +249,33 @@ Core/Src/gpio.s: Core/Src/gpio.c.s
 Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
+
+Core/Src/i2c.obj: Core/Src/i2c.c.obj
+
+.PHONY : Core/Src/i2c.obj
+
+# target to build an object file
+Core/Src/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.c.obj
+
+Core/Src/i2c.i: Core/Src/i2c.c.i
+
+.PHONY : Core/Src/i2c.i
+
+# target to preprocess a source file
+Core/Src/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.c.i
+
+Core/Src/i2c.s: Core/Src/i2c.c.s
+
+.PHONY : Core/Src/i2c.s
+
+# target to generate assembly for a file
+Core/Src/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 
@@ -745,6 +799,60 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
@@ -1231,6 +1339,114 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+applications/INS_Task.obj: applications/INS_Task.c.obj
+
+.PHONY : applications/INS_Task.obj
+
+# target to build an object file
+applications/INS_Task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.obj
+.PHONY : applications/INS_Task.c.obj
+
+applications/INS_Task.i: applications/INS_Task.c.i
+
+.PHONY : applications/INS_Task.i
+
+# target to preprocess a source file
+applications/INS_Task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.i
+.PHONY : applications/INS_Task.c.i
+
+applications/INS_Task.s: applications/INS_Task.c.s
+
+.PHONY : applications/INS_Task.s
+
+# target to generate assembly for a file
+applications/INS_Task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/applications/INS_Task.c.s
+.PHONY : applications/INS_Task.c.s
+
+bsp/boards/bsp_delay.obj: bsp/boards/bsp_delay.c.obj
+
+.PHONY : bsp/boards/bsp_delay.obj
+
+# target to build an object file
+bsp/boards/bsp_delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.obj
+.PHONY : bsp/boards/bsp_delay.c.obj
+
+bsp/boards/bsp_delay.i: bsp/boards/bsp_delay.c.i
+
+.PHONY : bsp/boards/bsp_delay.i
+
+# target to preprocess a source file
+bsp/boards/bsp_delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.i
+.PHONY : bsp/boards/bsp_delay.c.i
+
+bsp/boards/bsp_delay.s: bsp/boards/bsp_delay.c.s
+
+.PHONY : bsp/boards/bsp_delay.s
+
+# target to generate assembly for a file
+bsp/boards/bsp_delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_delay.c.s
+.PHONY : bsp/boards/bsp_delay.c.s
+
+bsp/boards/bsp_imu_pwm.obj: bsp/boards/bsp_imu_pwm.c.obj
+
+.PHONY : bsp/boards/bsp_imu_pwm.obj
+
+# target to build an object file
+bsp/boards/bsp_imu_pwm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.obj
+.PHONY : bsp/boards/bsp_imu_pwm.c.obj
+
+bsp/boards/bsp_imu_pwm.i: bsp/boards/bsp_imu_pwm.c.i
+
+.PHONY : bsp/boards/bsp_imu_pwm.i
+
+# target to preprocess a source file
+bsp/boards/bsp_imu_pwm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.i
+.PHONY : bsp/boards/bsp_imu_pwm.c.i
+
+bsp/boards/bsp_imu_pwm.s: bsp/boards/bsp_imu_pwm.c.s
+
+.PHONY : bsp/boards/bsp_imu_pwm.s
+
+# target to generate assembly for a file
+bsp/boards/bsp_imu_pwm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_imu_pwm.c.s
+.PHONY : bsp/boards/bsp_imu_pwm.c.s
+
+bsp/boards/bsp_spi.obj: bsp/boards/bsp_spi.c.obj
+
+.PHONY : bsp/boards/bsp_spi.obj
+
+# target to build an object file
+bsp/boards/bsp_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.obj
+.PHONY : bsp/boards/bsp_spi.c.obj
+
+bsp/boards/bsp_spi.i: bsp/boards/bsp_spi.c.i
+
+.PHONY : bsp/boards/bsp_spi.i
+
+# target to preprocess a source file
+bsp/boards/bsp_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.i
+.PHONY : bsp/boards/bsp_spi.c.i
+
+bsp/boards/bsp_spi.s: bsp/boards/bsp_spi.c.s
+
+.PHONY : bsp/boards/bsp_spi.s
+
+# target to generate assembly for a file
+bsp/boards/bsp_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/bsp/boards/bsp_spi.c.s
+.PHONY : bsp/boards/bsp_spi.c.s
+
 component/BMI088/BMI088Middleware.obj: component/BMI088/BMI088Middleware.c.obj
 
 .PHONY : component/BMI088/BMI088Middleware.obj
@@ -1285,6 +1501,60 @@ component/BMI088/BMI088driver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/BMI088/BMI088driver.c.s
 .PHONY : component/BMI088/BMI088driver.c.s
 
+component/IST8310/ist8310driver.obj: component/IST8310/ist8310driver.c.obj
+
+.PHONY : component/IST8310/ist8310driver.obj
+
+# target to build an object file
+component/IST8310/ist8310driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver.c.obj
+.PHONY : component/IST8310/ist8310driver.c.obj
+
+component/IST8310/ist8310driver.i: component/IST8310/ist8310driver.c.i
+
+.PHONY : component/IST8310/ist8310driver.i
+
+# target to preprocess a source file
+component/IST8310/ist8310driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver.c.i
+.PHONY : component/IST8310/ist8310driver.c.i
+
+component/IST8310/ist8310driver.s: component/IST8310/ist8310driver.c.s
+
+.PHONY : component/IST8310/ist8310driver.s
+
+# target to generate assembly for a file
+component/IST8310/ist8310driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver.c.s
+.PHONY : component/IST8310/ist8310driver.c.s
+
+component/IST8310/ist8310driver_middleware.obj: component/IST8310/ist8310driver_middleware.c.obj
+
+.PHONY : component/IST8310/ist8310driver_middleware.obj
+
+# target to build an object file
+component/IST8310/ist8310driver_middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.c.obj
+.PHONY : component/IST8310/ist8310driver_middleware.c.obj
+
+component/IST8310/ist8310driver_middleware.i: component/IST8310/ist8310driver_middleware.c.i
+
+.PHONY : component/IST8310/ist8310driver_middleware.i
+
+# target to preprocess a source file
+component/IST8310/ist8310driver_middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.c.i
+.PHONY : component/IST8310/ist8310driver_middleware.c.i
+
+component/IST8310/ist8310driver_middleware.s: component/IST8310/ist8310driver_middleware.c.s
+
+.PHONY : component/IST8310/ist8310driver_middleware.s
+
+# target to generate assembly for a file
+component/IST8310/ist8310driver_middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/component/IST8310/ist8310driver_middleware.c.s
+.PHONY : component/IST8310/ist8310driver_middleware.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1294,6 +1564,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BMI_088_SPI_Clion.elf"
+	@echo "... Algorithms/PID/pid.obj"
+	@echo "... Algorithms/PID/pid.i"
+	@echo "... Algorithms/PID/pid.s"
 	@echo "... Core/Src/dma.obj"
 	@echo "... Core/Src/dma.i"
 	@echo "... Core/Src/dma.s"
@@ -1303,6 +1576,9 @@ help:
 	@echo "... Core/Src/gpio.obj"
 	@echo "... Core/Src/gpio.i"
 	@echo "... Core/Src/gpio.s"
+	@echo "... Core/Src/i2c.obj"
+	@echo "... Core/Src/i2c.i"
+	@echo "... Core/Src/i2c.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
@@ -1361,6 +1637,12 @@ help:
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s"
@@ -1415,12 +1697,30 @@ help:
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.obj"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.i"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.s"
+	@echo "... applications/INS_Task.obj"
+	@echo "... applications/INS_Task.i"
+	@echo "... applications/INS_Task.s"
+	@echo "... bsp/boards/bsp_delay.obj"
+	@echo "... bsp/boards/bsp_delay.i"
+	@echo "... bsp/boards/bsp_delay.s"
+	@echo "... bsp/boards/bsp_imu_pwm.obj"
+	@echo "... bsp/boards/bsp_imu_pwm.i"
+	@echo "... bsp/boards/bsp_imu_pwm.s"
+	@echo "... bsp/boards/bsp_spi.obj"
+	@echo "... bsp/boards/bsp_spi.i"
+	@echo "... bsp/boards/bsp_spi.s"
 	@echo "... component/BMI088/BMI088Middleware.obj"
 	@echo "... component/BMI088/BMI088Middleware.i"
 	@echo "... component/BMI088/BMI088Middleware.s"
 	@echo "... component/BMI088/BMI088driver.obj"
 	@echo "... component/BMI088/BMI088driver.i"
 	@echo "... component/BMI088/BMI088driver.s"
+	@echo "... component/IST8310/ist8310driver.obj"
+	@echo "... component/IST8310/ist8310driver.i"
+	@echo "... component/IST8310/ist8310driver.s"
+	@echo "... component/IST8310/ist8310driver_middleware.obj"
+	@echo "... component/IST8310/ist8310driver_middleware.i"
+	@echo "... component/IST8310/ist8310driver_middleware.s"
 .PHONY : help
 
 

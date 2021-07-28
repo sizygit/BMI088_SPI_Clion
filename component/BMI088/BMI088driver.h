@@ -1,6 +1,11 @@
 #ifndef BMI088DRIVER_H
 #define BMI088DRIVER_H
 
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "struct_typedef.h"
 #include "main.h"
 #include "FreeRTOS.h"
@@ -97,6 +102,8 @@ extern uint8_t bmi088_gyro_init(void);
 
 extern void BMI088_read(float_32 gyro[3], float_32 accel[3], float_32 *temperate);
 
-
-
+#ifdef __cplusplus
+}
 #endif
+
+#endif /* __DMA_H__ */

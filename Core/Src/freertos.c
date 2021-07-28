@@ -50,7 +50,8 @@
 
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
-osThreadId BMI088Handle;
+osThreadId BMI088_TaskHandle;
+osThreadId INSHandle;
 osSemaphoreId Binary10msHandle;
 osSemaphoreId BinaryNSLowHandle;
 
@@ -61,6 +62,7 @@ osSemaphoreId BinaryNSLowHandle;
 
 void StartDefaultTask(void const * argument);
 void BMI088Manage(void const * argument);
+void INS_Task(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -120,9 +122,13 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
-  /* definition and creation of BMI088 */
-  osThreadDef(BMI088, BMI088Manage, osPriorityNormal, 0, 128);
-  BMI088Handle = osThreadCreate(osThread(BMI088), NULL);
+  /* definition and creation of BMI088_Task */
+  osThreadDef(BMI088_Task, BMI088Manage, osPriorityNormal, 0, 128);
+  BMI088_TaskHandle = osThreadCreate(osThread(BMI088_Task), NULL);
+
+  /* definition and creation of INS */
+  osThreadDef(INS, INS_Task, osPriorityIdle, 0, 128);
+  INSHandle = osThreadCreate(osThread(INS), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -173,6 +179,24 @@ void BMI088Manage(void const * argument)
         }
     }
   /* USER CODE END BMI088Manage */
+}
+
+/* USER CODE BEGIN Header_INS_Task */
+/**
+* @brief Function implementing the INS thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_INS_Task */
+__weak void INS_Task(void const * argument)
+{
+  /* USER CODE BEGIN INS_Task */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END INS_Task */
 }
 
 /* Private application code --------------------------------------------------*/

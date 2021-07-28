@@ -6,3 +6,5 @@
 
 #IncludeRegexTransform: 
 
+/home/szy/STM32-files/BMI088_SPI_Clion/Core/Startup/startup_stm32f407ighx.s
+

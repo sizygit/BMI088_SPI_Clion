@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/applications/IMU_TempControl_Task.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/IMU_TempControl_Task.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/INS_Task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/INS_Task.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/pid.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/applications/pid.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/bsp/boards/bsp_spi.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/IST8310/ist8310driver.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/IST8310/ist8310driver.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/IST8310/ist8310driver_middleware.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/IST8310/ist8310driver_middleware.h" charset="GBK" />
+  </component>
+</project>
