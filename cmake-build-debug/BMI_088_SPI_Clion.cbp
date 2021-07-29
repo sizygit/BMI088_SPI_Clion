@@ -64,6 +64,7 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -105,6 +106,7 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -145,6 +147,18 @@
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionTypes.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/MahonyAHRS.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/MahonyAHRS.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/user_lib.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/user_lib.h">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.cpp">

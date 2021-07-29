@@ -51,11 +51,12 @@ include_directories(${includes}
                     applications
                     Algorithms/PID
                     bsp/boards
-                    Algorithms/Fusion)
+                    Algorithms/Fusion
+                    Algorithms/Fusion_sample)
 
 add_definitions(${defines})
 
-file(GLOB_RECURSE SOURCES ${sources} "component/BMI088/*.*" "component/IST8310/*.*" "applications/*.*" "Algorithms/PID/*.*" "bsp/boards/*.*" "Algorithms/Fusion/*.*")
+file(GLOB_RECURSE SOURCES ${sources} "component/BMI088/*.*" "component/IST8310/*.*" "applications/*.*" "Algorithms/PID/*.*" "bsp/boards/*.*" "Algorithms/Fusion/*.*" "Algorithms/Fusion_sample/*.*")
 
 set(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})
 

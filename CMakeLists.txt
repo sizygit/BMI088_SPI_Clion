@@ -52,11 +52,12 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
                     applications
                     Algorithms/PID
                     bsp/boards
-                    Algorithms/Fusion)
+                    Algorithms/Fusion
+                    Algorithms/Fusion_sample)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "component/BMI088/*.*" "component/IST8310/*.*" "applications/*.*" "Algorithms/PID/*.*" "bsp/boards/*.*" "Algorithms/Fusion/*.*")
+file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "component/BMI088/*.*" "component/IST8310/*.*" "applications/*.*" "Algorithms/PID/*.*" "bsp/boards/*.*" "Algorithms/Fusion/*.*" "Algorithms/Fusion_sample/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407IGHX_FLASH.ld)
 

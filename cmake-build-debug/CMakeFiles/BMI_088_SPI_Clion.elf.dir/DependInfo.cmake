@@ -36,11 +36,14 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Algorithms/PID"
   "../bsp/boards"
   "../Algorithms/Fusion"
+  "../Algorithms/Fusion_sample"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionAhrs.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionBias.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionCompass.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj"
+  "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/MahonyAHRS.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/MahonyAHRS.c.obj"
+  "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion_sample/user_lib.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/user_lib.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/dma.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/freertos.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj"
   "/home/szy/STM32-files/BMI088_SPI_Clion/Core/Src/gpio.c" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/gpio.c.obj"
@@ -120,6 +123,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Algorithms/PID"
   "../bsp/boards"
   "../Algorithms/Fusion"
+  "../Algorithms/Fusion_sample"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.cpp" "/home/szy/STM32-files/BMI088_SPI_Clion/cmake-build-debug/CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj"
@@ -153,6 +157,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Algorithms/PID"
   "../bsp/boards"
   "../Algorithms/Fusion"
+  "../Algorithms/Fusion_sample"
   )
 
 # Targets to which this target links.

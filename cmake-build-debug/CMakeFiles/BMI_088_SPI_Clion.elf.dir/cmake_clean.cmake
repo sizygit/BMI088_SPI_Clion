@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj"
+  "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/MahonyAHRS.c.obj"
+  "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/user_lib.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj"
   "CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj"

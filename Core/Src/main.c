@@ -192,7 +192,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         if(Binary10msHandle != NULL)
             xSemaphoreGiveFromISR(Binary10msHandle,&pxHigherPriorityTaskWoken);
         portYIELD_FROM_ISR(pxHigherPriorityTaskWoken);
-        BMI088_read(bmi088_real_data.gyro,bmi088_real_data.accel,&bmi088_real_data.temp);
     }
   /* USER CODE END Callback 1 */
 }

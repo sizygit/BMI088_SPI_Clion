@@ -223,6 +223,60 @@ Algorithms/Fusion/FusionCompass.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.s
 .PHONY : Algorithms/Fusion/FusionCompass.c.s
 
+Algorithms/Fusion_sample/MahonyAHRS.obj: Algorithms/Fusion_sample/MahonyAHRS.c.obj
+
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.obj
+
+# target to build an object file
+Algorithms/Fusion_sample/MahonyAHRS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/MahonyAHRS.c.obj
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.c.obj
+
+Algorithms/Fusion_sample/MahonyAHRS.i: Algorithms/Fusion_sample/MahonyAHRS.c.i
+
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.i
+
+# target to preprocess a source file
+Algorithms/Fusion_sample/MahonyAHRS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/MahonyAHRS.c.i
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.c.i
+
+Algorithms/Fusion_sample/MahonyAHRS.s: Algorithms/Fusion_sample/MahonyAHRS.c.s
+
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.s
+
+# target to generate assembly for a file
+Algorithms/Fusion_sample/MahonyAHRS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/MahonyAHRS.c.s
+.PHONY : Algorithms/Fusion_sample/MahonyAHRS.c.s
+
+Algorithms/Fusion_sample/user_lib.obj: Algorithms/Fusion_sample/user_lib.c.obj
+
+.PHONY : Algorithms/Fusion_sample/user_lib.obj
+
+# target to build an object file
+Algorithms/Fusion_sample/user_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/user_lib.c.obj
+.PHONY : Algorithms/Fusion_sample/user_lib.c.obj
+
+Algorithms/Fusion_sample/user_lib.i: Algorithms/Fusion_sample/user_lib.c.i
+
+.PHONY : Algorithms/Fusion_sample/user_lib.i
+
+# target to preprocess a source file
+Algorithms/Fusion_sample/user_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/user_lib.c.i
+.PHONY : Algorithms/Fusion_sample/user_lib.c.i
+
+Algorithms/Fusion_sample/user_lib.s: Algorithms/Fusion_sample/user_lib.c.s
+
+.PHONY : Algorithms/Fusion_sample/user_lib.s
+
+# target to generate assembly for a file
+Algorithms/Fusion_sample/user_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion_sample/user_lib.c.s
+.PHONY : Algorithms/Fusion_sample/user_lib.c.s
+
 Algorithms/PID/pid.obj: Algorithms/PID/pid.cpp.obj
 
 .PHONY : Algorithms/PID/pid.obj
@@ -1654,6 +1708,12 @@ help:
 	@echo "... Algorithms/Fusion/FusionCompass.obj"
 	@echo "... Algorithms/Fusion/FusionCompass.i"
 	@echo "... Algorithms/Fusion/FusionCompass.s"
+	@echo "... Algorithms/Fusion_sample/MahonyAHRS.obj"
+	@echo "... Algorithms/Fusion_sample/MahonyAHRS.i"
+	@echo "... Algorithms/Fusion_sample/MahonyAHRS.s"
+	@echo "... Algorithms/Fusion_sample/user_lib.obj"
+	@echo "... Algorithms/Fusion_sample/user_lib.i"
+	@echo "... Algorithms/Fusion_sample/user_lib.s"
 	@echo "... Algorithms/PID/pid.obj"
 	@echo "... Algorithms/PID/pid.i"
 	@echo "... Algorithms/PID/pid.s"
