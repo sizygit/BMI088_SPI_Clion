@@ -7,10 +7,11 @@
 float_32 BMI088_ACCEL_SEN = BMI088_ACCEL_3G_SEN;
 float_32 BMI088_GYRO_SEN = BMI088_GYRO_2000_SEN;
 
-float_32 gyro[3], accel[3], temp = {0};
+bmi088_real_data_t bmi088_real_data;
 
 uint8_t sendbuf_none[8] = {0x55 ,0x55, 0x55, 0x55, 0x55 ,0x55 ,0x55 ,0x55};
 uint8_t DMA_buf[8] = {0};
+
 
 extern osSemaphoreId BinaryNSLowHandle;
 #if defined(BMI088_USE_SPI)

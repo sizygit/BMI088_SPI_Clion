@@ -68,7 +68,7 @@ extern void ist8310_read_over(uint8_t *status_buf, ist8310_real_data_t *ist8310_
   * @retval         none
   */
 extern void ist8310_read_mag(float_32 mag[3]);
-
+extern ist8310_real_data_t ist8310_real_data;
 
 
 #ifdef __cplusplus

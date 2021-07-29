@@ -166,19 +166,14 @@ void BMI088Manage(void const * argument)
 {
   /* USER CODE BEGIN BMI088Manage */
   /* Infinite loop */
-    while(BMI088_init())
-    {
-        HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_SET);
-    }
-    HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_RESET);
-    HAL_TIM_Base_Start_IT(&htim3);  //enable the tim3 interrupt
     for(;;)
     {
-        if(xSemaphoreTake(Binary10msHandle,portMAX_DELAY) == pdTRUE)
+        osDelay(1);
+        /*if(xSemaphoreTake(Binary10msHandle,portMAX_DELAY) == pdTRUE)
         {
-            BMI088_read(gyro, accel, &temp);
+
             //HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
-        }
+        }*/
     }
   /* USER CODE END BMI088Manage */
 }

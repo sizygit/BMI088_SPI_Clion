@@ -50,7 +50,8 @@ extern "C" {
 #define BMI088_GYRO_500_SEN 0.00026631610900792382460383465095346f
 #define BMI088_GYRO_250_SEN 0.00013315805450396191230191732547673f
 #define BMI088_GYRO_125_SEN 0.000066579027251980956150958662738366f
-extern float_32 gyro[3], accel[3], temp;
+
+
 
 typedef __packed struct BMI088_RAW_DATA
 {
@@ -101,6 +102,7 @@ extern uint8_t bmi088_accel_init(void);
 extern uint8_t bmi088_gyro_init(void);
 
 extern void BMI088_read(float_32 gyro[3], float_32 accel[3], float_32 *temperate);
+extern bmi088_real_data_t bmi088_real_data;
 
 #ifdef __cplusplus
 }

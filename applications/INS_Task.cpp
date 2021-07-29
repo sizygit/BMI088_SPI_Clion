@@ -94,8 +94,8 @@ volatile uint8_t mag_update_flag = 0;
 volatile uint8_t imu_start_dma_flag = 0;
 
 
-bmi088_real_data_t bmi088_real_data;
-ist8310_real_data_t ist8310_real_data;
+extern bmi088_real_data_t bmi088_real_data;
+extern ist8310_real_data_t ist8310_real_data;
 
 
 static uint8_t first_temperate;
@@ -118,11 +118,17 @@ void INS_Task(void const * argument)
 {
     //wait a time
     osDelay(INS_TASK_INIT_TIME);
-    HAL_GPIO_WritePin(LED_G_GPIO_Port,LED_G_Pin,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_SET);
     while(ist8310_init())
     {
         osDelay(5);
     }
+    while(BMI088_init())
+    {
+        osDelay(5);
+    }
+    HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_RESET);
+    HAL_TIM_Base_Start_IT(&htim3);  //enable the tim3 interrupt
 
     //get the handle of task
     //获取当前任务的任务句柄，

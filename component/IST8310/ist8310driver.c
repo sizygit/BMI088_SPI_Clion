@@ -37,7 +37,7 @@ static const uint8_t ist8310_write_reg_data_error[IST8310_WRITE_REG_NUM][3] ={
         {0x42, 0xC0, 0x03},     //must be 0xC0. 必须是0xC0
         {0x0A, 0x0B, 0x04}};    //200Hz output rate.200Hz输出频率  4ms
 
-
+ist8310_real_data_t ist8310_real_data;
 
 /**
   * @brief          initialize ist8310
