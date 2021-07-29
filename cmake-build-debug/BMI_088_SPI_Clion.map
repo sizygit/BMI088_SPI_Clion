@@ -10,6 +10,46 @@ Archive member included to satisfy reference by file (symbol)
                               /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a(class_type_info.o) (std::type_info::~type_info())
 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a(del_op.o)
                               /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a(del_ops.o) (operator delete(void*))
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj (cosf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj (sinf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj (atan2f)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj (sqrtf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o) (__ieee754_atan2f)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o) (__ieee754_sqrtf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o) (__fdlib_version)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o) (matherr)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o) (atanf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o) (fabsf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+                              /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o) (copysignf)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj (__aeabi_f2d)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj (__aeabi_dmul)
+/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj (__aeabi_d2f)
 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
                               CMakeFiles/BMI_088_SPI_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj (__aeabi_uldivmod)
 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
@@ -102,6 +142,81 @@ Discarded input sections
  .ARM.exidx     0x0000000000000000        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsInitialise
+                0x0000000000000000       0x34 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsSetGain
+                0x0000000000000000        0x6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsSetMagneticField
+                0x0000000000000000       0x12 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsUpdate
+                0x0000000000000000      0x49c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsGetQuaternion
+                0x0000000000000000       0x5c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsGetLinearAcceleration
+                0x0000000000000000       0x1c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsGetEarthAcceleration
+                0x0000000000000000       0xe2 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsReinitialise
+                0x0000000000000000       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsIsInitialising
+                0x0000000000000000       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsSetYaw
+                0x0000000000000000      0x188 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text.FusionAhrsUpdateWithoutMagnetometer
+                0x0000000000000000       0x48 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_info    0x0000000000000000     0x15ef CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_abbrev  0x0000000000000000      0x3a7 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_loc     0x0000000000000000      0x5b4 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_aranges
+                0x0000000000000000       0x70 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_ranges  0x0000000000000000       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_line    0x0000000000000000      0x3d6 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_str     0x0000000000000000      0xb4c CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .debug_frame   0x0000000000000000      0x168 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x39 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .text.FusionBiasInitialise
+                0x0000000000000000       0x38 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .text.FusionBiasUpdate
+                0x0000000000000000      0x142 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .text.FusionBiasIsActive
+                0x0000000000000000       0x18 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_info    0x0000000000000000      0xb78 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_abbrev  0x0000000000000000      0x287 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_loc     0x0000000000000000       0xf8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_aranges
+                0x0000000000000000       0x30 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_ranges  0x0000000000000000       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_line    0x0000000000000000      0x20a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_str     0x0000000000000000      0x76a CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .debug_frame   0x0000000000000000       0x60 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x39 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .text.FusionCompassCalculateHeading
+                0x0000000000000000      0x144 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_info    0x0000000000000000      0xc46 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_abbrev  0x0000000000000000      0x2b8 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_loc     0x0000000000000000       0xe0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_line    0x0000000000000000      0x232 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_str     0x0000000000000000      0x7ae CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .comment       0x0000000000000000       0x7f CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .debug_frame   0x0000000000000000       0x30 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x39 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj
@@ -1884,6 +1999,163 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a(del_op.o)
  .ARM.attributes
                 0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a(del_op.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .text.cosf     0x0000000000000000       0x90 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_cos.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .text.sinf     0x0000000000000000       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_sin.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .text.atan2f   0x0000000000000000        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .text.sqrtf    0x0000000000000000       0xac /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .rodata.sqrtf.str1.4
+                0x0000000000000000        0x6 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .debug_frame   0x0000000000000000       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .text.__ieee754_atan2f
+                0x0000000000000000      0x17c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .debug_frame   0x0000000000000000       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .text.__ieee754_rem_pio2f
+                0x0000000000000000      0x298 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.npio2_hw
+                0x0000000000000000       0x80 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0000000000000000      0x318 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x0000000000000000       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .text.__ieee754_sqrtf
+                0x0000000000000000        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .text.__kernel_cosf
+                0x0000000000000000      0x104 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_cos.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .text.__kernel_rem_pio2f
+                0x0000000000000000      0x650 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x0000000000000000       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x0000000000000000        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x0000000000000000       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .text.__kernel_sinf
+                0x0000000000000000       0x90 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-kf_sin.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .data.__fdlib_version
+                0x0000000000000000        0x1 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .text.matherr  0x0000000000000000        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .text.atanf    0x0000000000000000      0x1a4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .rodata.atanhi
+                0x0000000000000000       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .rodata.atanlo
+                0x0000000000000000       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .debug_frame   0x0000000000000000       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .text.fabsf    0x0000000000000000       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .text.floorf   0x0000000000000000       0x8c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_floor.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .text.scalbnf  0x0000000000000000       0xd0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x0000000000000000       0x44 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_scalbn.o)
+ .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .text.copysignf
+                0x0000000000000000       0x18 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_copysign.o)
+ .text          0x0000000000000000      0x378 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000000000       0xac /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x0000000000000000      0x424 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000000000       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .text          0x0000000000000000       0xa0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
@@ -2045,6 +2317,9 @@ Linker script and memory map
 LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
 LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
 LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/PID/pid.cpp.obj
 LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/dma.c.obj
 LOAD CMakeFiles/BMI_088_SPI_Clion.elf.dir/Core/Src/freertos.c.obj

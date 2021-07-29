@@ -63,6 +63,7 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/applications"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -103,6 +104,7 @@
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/applications"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID"/>
 					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/bsp/boards"/>
+					<Add directory="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -118,6 +120,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/Fusion.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionAhrs.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionAhrs.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionBias.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionBias.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionCalibration.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionCompass.c">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionCompass.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/Fusion/FusionTypes.h">
+			<Option target="BMI_088_SPI_Clion.elf"/>
+		</Unit>
 		<Unit filename="/home/szy/STM32-files/BMI088_SPI_Clion/Algorithms/PID/pid.cpp">
 			<Option target="BMI_088_SPI_Clion.elf"/>
 		</Unit>

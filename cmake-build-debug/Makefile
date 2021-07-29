@@ -142,6 +142,87 @@ BMI_088_SPI_Clion.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/build
 .PHONY : BMI_088_SPI_Clion.elf/fast
 
+Algorithms/Fusion/FusionAhrs.obj: Algorithms/Fusion/FusionAhrs.c.obj
+
+.PHONY : Algorithms/Fusion/FusionAhrs.obj
+
+# target to build an object file
+Algorithms/Fusion/FusionAhrs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.obj
+.PHONY : Algorithms/Fusion/FusionAhrs.c.obj
+
+Algorithms/Fusion/FusionAhrs.i: Algorithms/Fusion/FusionAhrs.c.i
+
+.PHONY : Algorithms/Fusion/FusionAhrs.i
+
+# target to preprocess a source file
+Algorithms/Fusion/FusionAhrs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.i
+.PHONY : Algorithms/Fusion/FusionAhrs.c.i
+
+Algorithms/Fusion/FusionAhrs.s: Algorithms/Fusion/FusionAhrs.c.s
+
+.PHONY : Algorithms/Fusion/FusionAhrs.s
+
+# target to generate assembly for a file
+Algorithms/Fusion/FusionAhrs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionAhrs.c.s
+.PHONY : Algorithms/Fusion/FusionAhrs.c.s
+
+Algorithms/Fusion/FusionBias.obj: Algorithms/Fusion/FusionBias.c.obj
+
+.PHONY : Algorithms/Fusion/FusionBias.obj
+
+# target to build an object file
+Algorithms/Fusion/FusionBias.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.obj
+.PHONY : Algorithms/Fusion/FusionBias.c.obj
+
+Algorithms/Fusion/FusionBias.i: Algorithms/Fusion/FusionBias.c.i
+
+.PHONY : Algorithms/Fusion/FusionBias.i
+
+# target to preprocess a source file
+Algorithms/Fusion/FusionBias.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.i
+.PHONY : Algorithms/Fusion/FusionBias.c.i
+
+Algorithms/Fusion/FusionBias.s: Algorithms/Fusion/FusionBias.c.s
+
+.PHONY : Algorithms/Fusion/FusionBias.s
+
+# target to generate assembly for a file
+Algorithms/Fusion/FusionBias.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionBias.c.s
+.PHONY : Algorithms/Fusion/FusionBias.c.s
+
+Algorithms/Fusion/FusionCompass.obj: Algorithms/Fusion/FusionCompass.c.obj
+
+.PHONY : Algorithms/Fusion/FusionCompass.obj
+
+# target to build an object file
+Algorithms/Fusion/FusionCompass.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.obj
+.PHONY : Algorithms/Fusion/FusionCompass.c.obj
+
+Algorithms/Fusion/FusionCompass.i: Algorithms/Fusion/FusionCompass.c.i
+
+.PHONY : Algorithms/Fusion/FusionCompass.i
+
+# target to preprocess a source file
+Algorithms/Fusion/FusionCompass.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.i
+.PHONY : Algorithms/Fusion/FusionCompass.c.i
+
+Algorithms/Fusion/FusionCompass.s: Algorithms/Fusion/FusionCompass.c.s
+
+.PHONY : Algorithms/Fusion/FusionCompass.s
+
+# target to generate assembly for a file
+Algorithms/Fusion/FusionCompass.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BMI_088_SPI_Clion.elf.dir/build.make CMakeFiles/BMI_088_SPI_Clion.elf.dir/Algorithms/Fusion/FusionCompass.c.s
+.PHONY : Algorithms/Fusion/FusionCompass.c.s
+
 Algorithms/PID/pid.obj: Algorithms/PID/pid.cpp.obj
 
 .PHONY : Algorithms/PID/pid.obj
@@ -1564,6 +1645,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BMI_088_SPI_Clion.elf"
+	@echo "... Algorithms/Fusion/FusionAhrs.obj"
+	@echo "... Algorithms/Fusion/FusionAhrs.i"
+	@echo "... Algorithms/Fusion/FusionAhrs.s"
+	@echo "... Algorithms/Fusion/FusionBias.obj"
+	@echo "... Algorithms/Fusion/FusionBias.i"
+	@echo "... Algorithms/Fusion/FusionBias.s"
+	@echo "... Algorithms/Fusion/FusionCompass.obj"
+	@echo "... Algorithms/Fusion/FusionCompass.i"
+	@echo "... Algorithms/Fusion/FusionCompass.s"
 	@echo "... Algorithms/PID/pid.obj"
 	@echo "... Algorithms/PID/pid.i"
 	@echo "... Algorithms/PID/pid.s"
