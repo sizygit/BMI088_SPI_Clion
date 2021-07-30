@@ -181,7 +181,7 @@ extern const float_32 *get_accel_data_point(void);
   * @retval         INS_magµÄÖ¸Õë
   */
 extern const float_32 *get_mag_data_point(void);
-
+extern void DMA2_Stream2_IRQHandler1(void);
 #ifdef __cplusplus
 }
 #endif
